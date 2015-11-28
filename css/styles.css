@@ -1,0 +1,99 @@
+.all-window-height {
+    height: 100vh; /* 100vh - 100% от высоты viewport(окна браузера) */
+	background-color: #222;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-header{
+	padding-left: 15px;
+}
+
+.navbar-right{
+	padding-right: 15px;
+}
+
+#carousel-example-generic{
+	height: 74%;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.carousel-inner{
+	height: 100%;
+}
+
+.carousel-caption{
+	height: 60%;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.item img{
+	width: 100%;
+}
+
+.info{
+	height: 13%;
+}
+
+.info p{
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 200%;
+	color: #9D9D9D;
+}
+
+.buy{
+	height: 13%;
+}
+
+.buy .btn-lg{
+	height: 100%;
+	border-radius: 0;
+}
+
+.text-center{
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.col-lg-5 h3{
+	margin-bottom: 10%;
+}
+
+.col-lg-5 iframe{
+	padding-top: 4%;
+}
+
+.line{
+	border-bottom: 1px solid #ccc;
+}
+
+.center img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team img{
+	padding-bottom: 10%;
+}
+
+.address{
+	border-top: 1px solid #ccc;
+	margin-top: 10%;
+}
+
+.address p{
+	padding-top: 5%;
+}
