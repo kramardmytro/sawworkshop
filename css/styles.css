@@ -1,5 +1,5 @@
 .all-window-height {
-    height: 100vh; /* 100vh - 100% от высоты viewport(окна браузера) */
+    height: 100vh; /* 100vh - 100% пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ viewport(пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ) */
 }
 
 .navbar-default {
@@ -234,7 +234,15 @@ a {
     box-shadow: none;
 }
 
-.ornament{
-	padding-top: 10%;
-	opacity: 0.7;
+.well .col-sm-2, .col-md-2, .col-lg-2 {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
 }
