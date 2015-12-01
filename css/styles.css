@@ -1,5 +1,5 @@
 .all-window-height {
-    height: 100vh; /* 100vh - 100% �� ������ viewport(���� ��������) */
+    height: 100vh;
 }
 
 .navbar-default {
@@ -52,10 +52,6 @@
     color: #FFF;
     background-color: #E84B3C;
     border-color: #E84B3C;
-}
-
-.buy a{
-	text-decoration: none;
 }
 
 .container-fluid {
@@ -156,11 +152,19 @@
 }
 
 .team{
+	width: 285px;
 	padding-left: 0;
 	padding-right: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .team h4 strong{
+	color: #1ABC9C;
+}
+
+.team2 h4 strong{
 	color: #1ABC9C;
 }
 
@@ -190,7 +194,7 @@
 .ftr{
 	height: 375px;
 	background-color: #222;
-	background-image: url(../img/map_2.jpg);
+	background-image: url(../img/footer.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -246,3 +250,306 @@ a {
 a:hover{
   text-decoration: none;
 }
+
+
+.main-first{
+	height: 100%;
+	background-image: url(../img/main_carousel/a.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-second{
+	height: 100%;
+	background-image: url(../img/main_carousel/b.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-third{
+	height: 100%;
+	background-image: url(../img/main_carousel/c.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-fourth{
+	height: 100%;
+	background-image: url(../img/main_carousel/d.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-fifth{
+	height: 100%;
+	background-image: url(../img/main_carousel/h.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-sixth{
+	height: 100%;
+	background-image: url(../img/main_carousel/i.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-seventh{
+	height: 100%;
+	background-image: url(../img/main_carousel/k.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-eighth{
+	height: 100%;
+	background-image: url(../img/main_carousel/l.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-nineth{
+	height: 100%;
+	background-image: url(../img/main_carousel/m.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.main-tenth{
+	height: 100%;
+	background-image: url(../img/main_carousel/n.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.minor-first{
+	height: 100%;
+	background-color: #222;
+	background-image: url(../img/minor_carousel/crsl_2.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.minor-second{
+	height: 100%;
+	background-image: url(../img/minor_carousel/crsl_1.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.minor-third{
+	height: 100%;
+	background-image: url(../img/minor_carousel/crsl_3.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+/*----------------------------------*/ 
+
+@media all and (max-width: 480px) {
+
+.info{
+	height: 20%;
+}
+
+.info p{
+	font-size: 120%;
+	text-align: center;
+	padding-top: 2%;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+}
+
+.text-center {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#carousel-example-generic{
+	height: 64%;
+}
+
+.buy .btn-lg{
+	font-size: 150%;
+}
+
+.maintext{
+	font-size: 200%;
+}
+
+.othertext{
+	font-size: 100%;
+}
+
+.love{
+	font-size: 200%;
+}
+
+.ftr{
+	height: 250px;
+}
+
+   }
+
+/*----------------------------------*/   
+   
+@media all and (min-width: 481px) and (max-width: 640px) {
+
+.info{
+	height: 20%;
+}
+
+.info p{
+	font-size: 130%;
+	text-align: center;
+	padding-top: 1%;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+}
+
+.text-center {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#carousel-example-generic{
+	height: 64%;
+}
+
+.buy .btn-lg{
+	font-size: 200%;
+}
+
+.maintext{
+	font-size: 250%;
+}
+
+.othertext{
+	font-size: 125%;
+}
+
+.love{
+	font-size: 250%;
+}
+
+.ftr{
+	height: 250px;
+}
+
+   }
+   
+/*----------------------------------*/   
+   
+@media all and (min-width: 641px) and (max-width: 767px) {
+
+.info{
+	height: 20%;
+}
+
+.info p{
+	font-size: 170%;
+	text-align: center;
+	padding-top: 2%;
+	padding-left: 0;
+	padding-right: 0;
+	margin: 0;
+}
+
+.text-center {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#carousel-example-generic{
+	height: 64%;
+}
+
+.buy .btn-lg{
+	font-size: 225%;
+}
+
+.maintext{
+	font-size: 300%;
+}
+
+.othertext{
+	font-size: 150%;
+}
+
+.love{
+	font-size: 275%;
+}
+
+.ftr{
+	height: 280px;
+}
+
+.team2{
+	width: 250px;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+   }
+   
+/*----------------------------------*/   
+   
+@media all and (min-width: 768px) and (max-width: 960px) {
+
+.team{
+	width: 180px;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.love{
+	font-size: 300%;
+}
+
+.contacts a button{
+	font-size: 100%;
+}
+
+.contacts h2{
+	font-size: 150%;
+}
+
+.ftr{
+	height: 280px;
+}
+
+   }
