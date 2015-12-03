@@ -254,7 +254,7 @@ a:hover{
 
 .main-first{
 	height: 100%;
-	background-image: url(../img/main_carousel/a.jpg);
+	background-image: url(../img/main_carousel/sawworkshop_ukrainian_manufactory.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -263,7 +263,7 @@ a:hover{
 
 .main-second{
 	height: 100%;
-	background-image: url(../img/main_carousel/b.jpg);
+	background-image: url(../img/main_carousel/LED_panel_drawing.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -272,7 +272,7 @@ a:hover{
 
 .main-third{
 	height: 100%;
-	background-image: url(../img/main_carousel/c.jpg);
+	background-image: url(../img/main_carousel/LED_panel_sketch.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -281,7 +281,7 @@ a:hover{
 
 .main-fourth{
 	height: 100%;
-	background-image: url(../img/main_carousel/d.jpg);
+	background-image: url(../img/main_carousel/LED_panel_thickness.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -290,7 +290,7 @@ a:hover{
 
 .main-fifth{
 	height: 100%;
-	background-image: url(../img/main_carousel/h.jpg);
+	background-image: url(../img/main_carousel/clipcord_power_supply.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -299,7 +299,7 @@ a:hover{
 
 .main-sixth{
 	height: 100%;
-	background-image: url(../img/main_carousel/i.jpg);
+	background-image: url(../img/main_carousel/sawworkshop_LED_panel.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -308,7 +308,7 @@ a:hover{
 
 .main-seventh{
 	height: 100%;
-	background-image: url(../img/main_carousel/k.jpg);
+	background-image: url(../img/main_carousel/LED_panel_view.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -317,7 +317,7 @@ a:hover{
 
 .main-eighth{
 	height: 100%;
-	background-image: url(../img/main_carousel/l.jpg);
+	background-image: url(../img/main_carousel/sawworkshop_present.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -326,7 +326,7 @@ a:hover{
 
 .main-nineth{
 	height: 100%;
-	background-image: url(../img/main_carousel/m.jpg);
+	background-image: url(../img/main_carousel/LED_panel_instruction.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -335,7 +335,7 @@ a:hover{
 
 .main-tenth{
 	height: 100%;
-	background-image: url(../img/main_carousel/n.jpg);
+	background-image: url(../img/main_carousel/the_best_present_for_tattooists.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -345,7 +345,7 @@ a:hover{
 .minor-first{
 	height: 100%;
 	background-color: #222;
-	background-image: url(../img/minor_carousel/crsl_2.jpg);
+	background-image: url(../img/minor_carousel/LED_panel_present.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -354,7 +354,7 @@ a:hover{
 
 .minor-second{
 	height: 100%;
-	background-image: url(../img/minor_carousel/crsl_1.jpg);
+	background-image: url(../img/minor_carousel/LED_panel_unpackaging.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -363,11 +363,46 @@ a:hover{
 
 .minor-third{
 	height: 100%;
-	background-image: url(../img/minor_carousel/crsl_3.jpg);
+	background-image: url(../img/minor_carousel/sawworkshop_manufactory.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+}
+
+.thanks{
+	height: 70%;
+}
+
+.ftr_2{
+	height: 30%;
+	background-color: #222;
+	background-image: url(../img/footer.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+.contacts_2{
+	color: #fff;
+	padding-top: 1%;
+}
+
+.contacts_2 a{
+	color: #fff;
+}
+
+.thanks img{
+	padding-top: 17%;
+	padding-right: 5%;
+}
+
+.thanks p{
+	font-size: 450%;
+	padding-top: 40%;
+	line-height: 100%;
 }
 
 /*----------------------------------*/ 
@@ -414,6 +449,51 @@ a:hover{
 
 .ftr{
 	height: 250px;
+}
+
+.team2{
+	width: 250px;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thanks{
+	height: 55%;
+}
+
+.ftr_2{
+	height: 45%;
+	background-color: #222;
+	background-image: url(../img/footer.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+.contacts_2{
+	color: #fff;
+	padding-top: 1%;
+}
+
+.contacts_2 a{
+	color: #fff;
+}
+
+.thanks img{
+	padding-top: 20%;
+	padding-right: 0%;
+	width: 65%;
+}
+
+.thanks p{
+	font-size: 150%;
+	padding-top: 35%;
+	line-height: 100%;
 }
 
    }
@@ -463,6 +543,52 @@ a:hover{
 .ftr{
 	height: 250px;
 }
+
+.team2{
+	width: 250px;
+	padding-left: 0;
+	padding-right: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.thanks{
+	height: 55%;
+}
+
+.ftr_2{
+	height: 45%;
+	background-color: #222;
+	background-image: url(../img/footer.jpg);
+	background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+.contacts_2{
+	color: #fff;
+	padding-top: 1%;
+}
+
+.contacts_2 a{
+	color: #fff;
+}
+
+.thanks img{
+	padding-top: 17%;
+	padding-right: 0%;
+	width: 40%;
+}
+
+.thanks p{
+	font-size: 200%;
+	padding-top: 25%;
+	line-height: 100%;
+}
+
 
    }
    
@@ -521,6 +647,18 @@ a:hover{
 	margin-right: auto;
 }
 
+.thanks img{
+	padding-top: 20%;
+	padding-right: 0%;
+	width: 60%;
+}
+
+.thanks p{
+	font-size: 250%;
+	padding-top: 37%;
+	line-height: 100%;
+}
+
    }
    
 /*----------------------------------*/   
@@ -544,8 +682,28 @@ a:hover{
 	font-size: 100%;
 }
 
+.contacts_2 a button{
+	font-size: 100%;
+}
+
 .contacts h2{
 	font-size: 150%;
+}
+
+.contacts_2 h2{
+	font-size: 150%;
+}
+
+.thanks img{
+	padding-top: 60%;
+	padding-right: 0%;
+	width: 100%;
+}
+
+.thanks p{
+	font-size: 250%;
+	padding-top: 90%;
+	line-height: 100%;
 }
 
 .ftr{

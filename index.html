@@ -24,7 +24,15 @@
         '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5DLDZM');</script>
 <!-- End Google Tag Manager -->
-
+<!--Mobile Navbar Collapse-->
+<script>
+	$(document).ready(function () {
+	  $(".navbar-nav li a").click(function(event) {
+		$(".navbar-collapse").collapse('hide');
+	  });
+	});
+</script>
+<!--Mobile Navbar Collapse-->
 	<div class="container-fluid">
 
 
@@ -40,7 +48,7 @@
 				<span class="icon-bar"></span>
 			  </button>
 			  <a class="navbar-brand" href="http://www.sawworkshop.com/">
-				<img alt="Match About" src="img/saw_logo.png" height="21" width="auto">
+				<img alt="Saw Workshop" src="img/saw_logo.png" height="21" width="auto">
 			  </a>
 			</div>
 
@@ -132,7 +140,7 @@
 		<div class="row buy container-fluid">
 
 
-                    <form action='https://www.2checkout.com/checkout/purchase' target="_blank" method='post'>
+                    <form action='https://www.2checkout.com/checkout/purchase' method='post'>
                     <input type='hidden' name='sid' value='102505363'>
                     <input type='hidden' name='quantity' value='1'>
                     <input type='hidden' name='product_id' value='1'>
