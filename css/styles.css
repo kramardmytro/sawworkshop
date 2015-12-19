@@ -225,10 +225,12 @@
 
 a:focus, a:hover {
 	color: #1ABC9C;
+	text-decoration: none;
 }
 
 a {
 	color: #1ABC9C;
+	text-decoration: none;
 }
 
 .well {
@@ -243,18 +245,9 @@ a {
   padding-right: 2%;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover{
-  text-decoration: none;
-}
-
-
 .main-first{
 	height: 100%;
-	background-image: url(../img/main_carousel/sawworkshop_ukrainian_manufactory.jpg);
+	background-image: url(../img/main_carousel/LED_panel_sketch.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -272,7 +265,7 @@ a:hover{
 
 .main-third{
 	height: 100%;
-	background-image: url(../img/main_carousel/LED_panel_sketch.jpg);
+	background-image: url(../img/main_carousel/sawworkshop_ukrainian_manufactory.jpg);
 	background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -412,6 +405,38 @@ a:hover{
     height:100%;
     width:0px;
 }
+
+.more button{
+	display: block;
+	margin: 0 auto;
+}
+
+.more button p{
+	margin: 0;
+}
+
+.fb_photo .btn-primary {
+	font-size: 300%;
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+    border-radius: 0px;
+}
+
+.fb_photo .btn-primary:hover {
+    background-color: #E84B3C;
+    border-color: #E84B3C;
+}
+
+.fb_photo .btn-primary :active {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+.fb_photo .btn-primary:focus {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
 
 /*----------------------------------*/ 
 
