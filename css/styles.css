@@ -437,6 +437,14 @@ a {
     border-color: #1ABC9C;
 }
 
+.distr-opacity img{
+	opacity: 0.9;
+}
+
+.distr-opacity img:hover{
+	opacity: 1;
+}
+
 
 /*----------------------------------*/ 
 
@@ -500,6 +508,11 @@ a {
 
 .middle p{
 	font-size: 150%;
+}
+
+.distr-opacity img{
+	display: block;
+	margin: 0 auto;
 }
 
    }
@@ -568,6 +581,11 @@ a {
 	font-size: 200%;
 }
 
+.distr-opacity img{
+	display: block;
+	margin: 0 auto;
+}
+
    }
    
 /*----------------------------------*/   
@@ -623,6 +641,11 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.distr-opacity img{
+	display: block;
+	margin: 0 auto;
 }
 
    }
