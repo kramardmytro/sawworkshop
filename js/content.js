@@ -3,19 +3,19 @@ window.data = {
     "EN":"Light panel for sketches drawing",
     "DE":"Lichtbox für Skizzen",
     "ES":"Panel de luz para bocetos",
-    "Dutch":"Lichtpaneel Voor Het Maken Van Schetsen"
+    "Dutch":"Lichtpaneel voor het maken van schetsen"
   },
   lifelong: {
     "EN":"Lifelong warranty",
     "DE":"Lebenslange Garantie",
     "ES":"Garantía de por vida",
-    "Dutch":"levenslange garantie"
+    "Dutch":"Levenslange garantie"
   },
   free: {
     "EN":"Free shipping",
     "DE":"Versandkostenfrei",
     "ES":"Envio gratis",
-    "Dutch":"gratis verzending"
+    "Dutch":"Gratis verzending"
   },
   buy:{
     "EN":"Buy",
