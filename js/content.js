@@ -3,7 +3,7 @@ window.data = {
     "EN":"Light panel for sketches drawing",
     "DE":"Lichtbox für Skizzen",
     "ES":"Panel de luz para bocetos",
-    "Dutch":"Lichtpaneel voor het maken van schetsen"
+    "Dutch":"Lichtpaneel Voor Het Maken Van Schetsen"
   },
   lifelong: {
     "EN":"Lifelong warranty",
@@ -60,16 +60,16 @@ window.data = {
     "Dutch":"Teken waar je maar wilt"
   },
   draw2:{
-    "EN":"No need to find where to draw anymore - your only place for drawing always with you.",
-    "DE":"Du brauchst keinen Platz mehr zu finden um zu Zeichnen - dein einziger Platz den du brauchst hast du immer bei dir.",
-    "ES":"No volverás a necesitar un sito específico para dibujar - tu sitio de trabajo irá contigo a dónde vayas. ",
-    "Dutch":"Nooit meer zoeken naar een tekenplek - je enige plek van tekenen heb je nu altijd bij je."
+    "EN":"No need to find where to draw anymore - your only place for drawing always with you",
+    "DE":"Du brauchst keinen Platz mehr zu finden um zu Zeichnen - dein einziger Platz den du brauchst hast du immer bei dir",
+    "ES":"No volverás a necesitar un sito específico para dibujar - tu sitio de trabajo irá contigo a dónde vayas",
+    "Dutch":"Nooit meer zoeken naar een tekenplek - je enige plek van tekenen heb je nu altijd bij je"
   },
   finding1:{
-    "EN":"Finding the perfect present for a tattoo artist is extremely hard.",
-    "DE":"Es passt für jeden Jedes Stück im Leben eines.",
-    "ES":"De fácil uso para todos.",
-    "Dutch":"Het is heel moeilijk om het perfecte kado voor een tattoo artist te vinden."
+    "EN":"Finding the perfect present for a tattoo artist is extremely hard",
+    "DE":"Es passt für jeden Jedes Stück im Leben eines",
+    "ES":"De fácil uso para todos",
+    "Dutch":"Het is heel moeilijk om het perfecte kado voor een tattoo artist te vinden"
   },
   finding2:{
     "EN":"All of they are unique personalities who choose their equipment\nmeticulously. But there is one gift that is universal for anyone who draws: a well-built LED light panel for making their sketches.",
@@ -212,14 +212,14 @@ window.data = {
   made1:{
     "EN":"Made with",
     "DE":"Made with",
-    "ES":"Hecho con",
-    "Dutch":"Met vakliefde gebouwd"
+    "ES":"Made with",
+    "Dutch":"Made with"
   },
   made2:{
     "EN":"in Ukraine",
     "DE":"in Ukraine",
-    "ES":"desde Ucrania",
-    "Dutch":"in de Oekraïne"
+    "ES":"in Ukraine",
+    "Dutch":"in Ukraine"
   },
   show:{
     "EN":"Show me more",
