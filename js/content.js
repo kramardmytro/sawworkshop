@@ -72,9 +72,9 @@ window.data = {
     "Dutch":"Het is heel moeilijk om het perfecte kado voor een tattoo artist te vinden"
   },
   finding2:{
-    "EN":"All of they are unique personalities who choose their equipment\nmeticulously. But there is one gift that is universal for anyone who draws: a well-built LED light panel for making their sketches.",
-    "DE":"Tätowierers ist wirklich einzigartig und nicht zu verschenken, aber nicht so bei einem LED Panel. Das LED Panel wird der beste Freund für jeden einzelnen Tätowierer, weil jeder Tätowierer Skizzen zeichnet.",
-    "ES":"Las herramientas de todo artista del tattoo son únicas y no intercambiables, pero no son un panel de LED. Lo paneles de LED se convertirán en el mejor amigo de cualquier tatuador ya que es la mejor forma para dibujar bocetos. А",
+    "EN":"All of they are unique personalities who choose their equipment\nmeticulously. But there is one gift that is universal for anyone who draws: a well-built LED light panel for making their sketches",
+    "DE":"Tätowierers ist wirklich einzigartig und nicht zu verschenken, aber nicht so bei einem LED Panel. Das LED Panel wird der beste Freund für jeden einzelnen Tätowierer, weil jeder Tätowierer Skizzen zeichnet",
+    "ES":"Las herramientas de todo artista del tattoo son únicas y no intercambiables, pero no son un panel de LED. Lo paneles de LED se convertirán en el mejor amigo de cualquier tatuador ya que es la mejor forma para dibujar bocetos",
     "Dutch":"Elke tattoo artist is uniek en kiest zijn apparatuur vaak helemaal\nzelf. Maar er is één kado dat geschikt is voor elke tattoo artist of tekenaar: een goed-gebouwd LED lichtpaneel waarop ze hun schetsen\nkunnen maken"
   },
   handmade1:{
