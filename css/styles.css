@@ -711,3 +711,10 @@ a {
 }
 
    }
+
+img.language:hover, img.language.choose{
+  border-color: #fff solid 1px;
+  -moz-box-shadow: 0 0 10px #fff;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0px 0px 10px #fff;
+}

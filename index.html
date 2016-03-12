@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <link href="http://www.sawworkshop.com/favicon_16.png" sizes="16x16" rel="shortcut icon" type="image/png">
@@ -56,14 +56,12 @@
 			  <a class="navbar-brand" href="http://www.sawworkshop.com/">
 				<img alt="Saw Workshop" src="img/saw_logo.png" height="21" width="auto">
 			  </a>
-			  <!-- <button onclick="render(true, 'EN')">English</button>
-			  <button onclick="render(true, 'Dutch')">Dutch</button>
-			  <button onclick="render(true, 'ES')">Spain</button>
-			  <button onclick="render(true, 'DE')">German</button> -->
-			  <img class="language" width="40" style="margin-top:5px; cursor:pointer;" onclick="render(true, 'EN')" src="/img/flags/en.png">
-			  <img class="language" width="40" style="margin-top:5px; cursor:pointer;" onclick="render(true, 'Dutch')" src="/img/flags/eu.png">
-			  <img class="language" width="40" style="margin-top:5px; cursor:pointer;" onclick="render(true, 'ES')" src="/img/flags/es.png">
-			  <img class="language" width="40" style="margin-top:5px; cursor:pointer;" onclick="render(true, 'DE')" src="/img/flags/de.png">
+
+			  <img class="language" width="40" style="margin-top:9px; cursor:pointer;" onclick="render(true, 'EN', this)" src="/img/flags/earth_white.png">
+			  <img class="language" width="30" style="margin-top:7px; cursor:pointer;" onclick="render(true, 'EN', this)" src="/img/flags/eu.png">
+			  <img class="language" width="30" style="margin-top:7px; cursor:pointer;" onclick="render(true, 'DE', this)" src="/img/flags/de.png">
+			  <img class="language" width="30" style="margin-top:7px; cursor:pointer;" onclick="render(true, 'ES', this)" src="/img/flags/es.png">
+			  <img class="language" width="33" style="margin-top:7px; cursor:pointer;" onclick="render(true, 'Dutch', this)" src="/img/flags/benelux.png">
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -277,6 +275,7 @@
 			<p><strong>{{ team1 }}</strong> {{ team2 }}
 			</p>
 			<p>{{ team3 }}</p>
+			<br/>
 			<div class="address">
 				<a href="https://www.facebook.com/glavat" target="_blank"><p>fb.com/glavat</p></a>
 			</div>
@@ -312,6 +311,7 @@
 			<p><strong>Social</strong> networker who communicates via facebook and instagram.
 			</p>
 			<p>Customer relationships, promo, PR</p>
+			<br/>
 			<div class="address">
 				<a href="https://www.facebook.com/dan.glavatskyh" target="_blank"><p>fb.com/dan.glavatskyh</p></a>
 			</div>
@@ -498,8 +498,8 @@
 
 	function showPosition(position) {
 		$.post( 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD95pD3EF2_j1Q4gocG8YwH6GBiMyGSVYs', function( data ) {
-        console.log('geolocation response');
-        console.log(data);
+        // console.log('geolocation response');
+        // console.log(data);
         getCountry(data.location.lat, data.location.lng);
 	    })
 	    .fail(function(data){
@@ -512,19 +512,19 @@
 
 function getCountry(lat, lng){
     $.get('http://maps.googleapis.com/maps/api/geocode/json', { latlng: lat + ',' + lng }, function(data) {
-        console.log(data);
+        // console.log(data);
         // $('#demo').after('<p>Your country: '+ data.results[0].address_components[6].short_name +'</p>');
         var country = false;
         var p = data.results;
         for (var key in p) {
           if (p.hasOwnProperty(key)) {
-            console.log(key, " -> ", p[key]);
+            // console.log(key, " -> ", p[key]);
             if (p[key].hasOwnProperty('address_components')){
                 var address_components = p[key].address_components;
                 for (var i in address_components) {
-                    console.log('addr',address_components[i]);
+                    // console.log('addr',address_components[i]);
                     if(address_components[i].hasOwnProperty('types') && JSON.stringify(address_components[i].types) == JSON.stringify(["country", "political"])){
-                        console.log('country',address_components[i]);
+                        // console.log('country',address_components[i]);
                         country = address_components[i].short_name;
                         break;
                     }
@@ -541,7 +541,8 @@ function getCountry(lat, lng){
     });
 }
 
-window.render = function render (isExist, language) {
+window.render = function render (isExist, language, img) {
+
 	var template = $('#indexTpl').html();
 	var html = null;
 	var currentData = transform();

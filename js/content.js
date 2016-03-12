@@ -24,22 +24,22 @@ window.data = {
     "Dutch":"Kopen"
   },
   what:{
-    "EN":"What.",
-    "DE":"Was.",
-    "ES":"Qué.",
-    "Dutch":"Wat."
+    "EN":"What",
+    "DE":"Was",
+    "ES":"Qué",
+    "Dutch":"Wat"
   },
   why:{
-    "EN":"Why.",
-    "DE":"Warum.",
-    "ES":"Por qué.",
-    "Dutch":"Waarom."
+    "EN":"Why",
+    "DE":"Warum",
+    "ES":"Por qué",
+    "Dutch":"Waarom"
   },
   who:{
-    "EN":"Who.",
+    "EN":"Who",
     "DE":"Wer",
-    "ES":"Quién.",
-    "Dutch":"Wie."
+    "ES":"Quién",
+    "Dutch":"Wie"
   },
   wassup1:{
     "EN":"Wassup! We are Saw Workshop's Team!",
@@ -54,10 +54,10 @@ window.data = {
     "Dutch":"Wij produceren top-kwaliteit, handgemaakte lichtpanelen. Dit zijn perfecte tools voor tattoo artists. Iedere artist kan met onze panelen sneller en gemakkelijker goede schetsen maken."
   },
   draw1:{
-    "EN":"Draw wherever you want.",
+    "EN":"Draw wherever you want",
     "DE":"Zeichne wo auch immer du willst",
-    "ES":"Dibuja lo que quieras.",
-    "Dutch":"Teken waar je maar wilt."
+    "ES":"Dibuja lo que quieras",
+    "Dutch":"Teken waar je maar wilt"
   },
   draw2:{
     "EN":"No need to find where to draw anymore - your only place for drawing always with you.",
@@ -78,10 +78,10 @@ window.data = {
     "Dutch":"Elke tattoo artist is uniek en kiest zijn apparatuur vaak helemaal\nzelf. Maar er is één kado dat geschikt is voor elke tattoo artist of tekenaar: een goed-gebouwd LED lichtpaneel waarop ze hun schetsen\nkunnen maken"
   },
   handmade1:{
-    "EN":"Handmade.",
+    "EN":"Handmade",
     "DE":"Handgefertigt",
-    "ES":"Hechos a mano.",
-    "Dutch":"Handgemaakte kwaliteit."
+    "ES":"Hechos a mano",
+    "Dutch":"Handgemaakte kwaliteit"
   },
   handmade2:{
     "EN":"All panels are handcrafted at a local workshop in Kyiv, combining true Ukrainian love and European quality.",
@@ -90,22 +90,22 @@ window.data = {
     "Dutch":"Alle lichtpanelen zijn handgemaakt in een locale workshop in Kiev. Wij combineren Oekraïnse liefde voor techniek met Europese kwaliteit."
   },
   frees1:{
-    "EN":"Frees up time.",
+    "EN":"Frees up time",
     "DE":"Mehr Zeit fürs Wesentliche",
-    "ES":"Aumentará tu tiempo libre.",
-    "Dutch":"Meer tijd over."
+    "ES":"Aumentará tu tiempo libre",
+    "Dutch":"Meer tijd over"
   },
   frees2:{
-    "EN":"Tattoo artists draw sketches 30-60% faster through the use of panels.",
-    "DE":"Tätowierer zeichnen Skizzen 30-60% schneller mit Hilfe der Panels.",
-    "ES":"Los tatuadores dibujan boceto un 30 -  60% más rápido con estos paneles.",
-    "Dutch":"Tattoo artists tekenen hun schetsen 30-60% sneller door het gebruik van onze panelen."
+    "EN":"Tattoo artists draw sketches 30-60% faster through the use of panels",
+    "DE":"Tätowierer zeichnen Skizzen 30-60% schneller mit Hilfe der Panels",
+    "ES":"Los tatuadores dibujan boceto un 30 -  60% más rápido con estos paneles",
+    "Dutch":"Tattoo artists tekenen hun schetsen 30-60% sneller door het gebruik van onze panelen"
   },
   designed1:{
-    "EN":"Designed for sketching.",
+    "EN":"Designed for sketching",
     "DE":"Designed fürs Skizzieren",
-    "ES":"Diseñado para dibujar.",
-    "Dutch":"Ontworpen voor schetsen."
+    "ES":"Diseñado para dibujar",
+    "Dutch":"Ontworpen voor schetsen"
   },
   designed2:{
     "EN":"Workspace of the panel has size equals to A3 paper. Also, it is divided into centimetre squares. This is especially good for drawing geometric patterns.\n",
@@ -114,10 +114,10 @@ window.data = {
     "Dutch":"Het werkoppervlak van het paneel is even groot als een A3-vel. Om schetsen makkelijker te maken hebben wij een centimeterraster ingebouwd in ons lichtpaneel. Hierdoor wordt het heel gemakkelijk om geometrische patronen te tekenen."
   },
   brightness1:{
-    "EN":"Brightness control.",
+    "EN":"Brightness control",
     "DE":"Helligkeit regelbar",
-    "ES":"Control de brillo.",
-    "Dutch":"Instelbare helderheid."
+    "ES":"Control de brillo",
+    "Dutch":"Instelbare helderheid"
   },
   brightness2:{
     "EN":"The panel is connected to the power supply of tattoo machines via clip cord. An artist can adjust the brightness of the panel by adjusting the voltage.",
@@ -126,7 +126,7 @@ window.data = {
     "Dutch":"Het paneel wordt gevoed met het clip cord dat uit je tattoovoeding komt. Je kunt de helderheid helemaal naar wens instellen door aan de spanning van je voeding te draaien."
   },
   ourMission1:{
-    "EN":"Our mission.",
+    "EN":"Our mission",
     "DE":"Unsere Mission",
     "ES":"Nuestra misión",
     "Dutch":"Onze Missie"
