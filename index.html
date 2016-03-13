@@ -164,14 +164,14 @@
 		</div>
 
 		<div class="row info container-fluid">
-			<div class="col-sm-4 col-md-4 col-lg-4">
-				<p>{{ light }}</p>
+			<div class="col-sm-5 col-md-5 col-lg-5">
+				<p class="text-center" style="text-align:left; padding-top:4%">{{ light }}</p>
+			</div>
+			<div class="col-sm-3 col-md-3 col-lg-3">
+				<p class="text-center" style="text-align:left; padding-top:7%">{{ lifelong }}</p>
 			</div>
 			<div class="col-sm-4 col-md-4 col-lg-4">
-				<p class="text-center">{{ lifelong }}</p>
-			</div>
-			<div class="col-sm-4 col-md-4 col-lg-4">
-				<p class="text-right">{{ free }}</p>
+				<p class="text-right" style="padding-top:5%;">{{ free }}</p>
 			</div>
 		</div>
 
@@ -568,6 +568,7 @@ function getCountry(lat, lng){
 }
 
 window.render = function render (isExist, language, img) {
+	event.preventDefault();
 
 	var template = $('#indexTpl').html();
 	var html = null;
