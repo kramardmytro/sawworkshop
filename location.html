@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<body>
+
+<p>Click the button to get your coordinates.</p>
+
+<button onclick="showPosition()">Push the button!</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+var country = "None";
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    // x.innerHTML = "Latitude: " + position.coords.latitude + 
+    // "<br>Longitude: " + position.coords.longitude;  
+    
+    // $.ajax({
+    //     url: 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD95pD3EF2_j1Q4gocG8YwH6GBiMyGSVYs',
+    //     data: {},
+    //     dataType: "JSON",
+    //     type: "POST",
+    //     success: function ( data , status_text, jqXHR) {
+    //         console.log('ajax success');
+    //         console.log(data);
+    //         getCountry(data.location.lat, data.location.lng);
+    //     },
+    //     error: function ( data , status_text, jqXHR ) {
+    //         console.log('ajax fail');
+    //         console.log(status_text);
+    //         console.log(data);
+    //     },
+    // });
+
+    $.post( 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD95pD3EF2_j1Q4gocG8YwH6GBiMyGSVYs', function( data ) {
+        console.log('geolocation response');
+        console.log(data);
+        getCountry(data.location.lat, data.location.lng);
+    })
+    .fail(function(data){
+        console.log('geolocation fail');
+        console.log(data);
+        $('#demo').after('<p>Something wrong:' + data.responseText + '</p>');
+    });
+    
+}
+
+function getCountry(lat, lng){
+    $.get('http://maps.googleapis.com/maps/api/geocode/json', { latlng: lat + ',' + lng }, function(data) {
+        console.log(data);
+        // $('#demo').after('<p>Your country: '+ data.results[0].address_components[6].short_name +'</p>');
+        
+        var p = data.results;
+        for (var key in p) {
+          if (p.hasOwnProperty(key)) {
+            console.log(key, " -> ", p[key]);
+            if (p[key].hasOwnProperty('address_components')){
+                var address_components = p[key].address_components;
+                for (var i in address_components) {
+                    console.log('addr',address_components[i]);
+                    if(address_components[i].hasOwnProperty('types') && JSON.stringify(address_components[i].types) == JSON.stringify(["country", "political"])){
+                        console.log('country',address_components[i]);
+                        country = address_components[i].short_name;
+                        break;
+                    }
+                    
+                }
+            }
+          }
+        }
+        // $('#demo').after('<p>Response: '+ JSON.stringify(data) +'</p>');
+        $('#demo').after('<p>Country: '+ country +'</p>');
+    });
+}
+</script>
+
+</body>
+</html>
