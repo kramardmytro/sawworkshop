@@ -78,13 +78,13 @@
 			  	<img class="language" width="30" src="/img/flags/eu.png">
 			   </a>
 			   <a class="navbar-brand" id="DE" href="#">
-			  	<img class="language" width="30" onclick="return render(true, 'DE');" src="/img/flags/de.png">
+			  	<img class="language" width="30" onclick="render(event, true, 'DE');" src="/img/flags/de.png">
 			   </a>
 			   <a class="navbar-brand" id="ES" href="#">
-			  	<img class="language" width="30" onclick="return render(true, 'ES');" src="/img/flags/es.png">
+			  	<img class="language" width="30" onclick="render(event, true, 'ES');" src="/img/flags/es.png">
 			   </a>
 			   <a class="navbar-brand" id="Dutch" href="#">
-			  	<img class="language" width="33" onclick="return render(true, 'Dutch');" src="/img/flags/benelux.png">
+			  	<img class="language" width="33" onclick="render(event, true, 'Dutch');" src="/img/flags/benelux.png">
 			   </a>
 
 			</div>
@@ -531,7 +531,7 @@
 	        console.log('geolocation fail');
 	        console.log(data);
 	        // $('#demo').after('<p>Something wrong:' + data.responseText + '</p>');
-	        window.render(false);
+	        window.render(false, false);
 	    });
     
 	}
@@ -563,12 +563,12 @@ function getCountry(lat, lng){
         // $('#demo').after('<p>Country: '+ country +'</p>');
         var firstKey = Object.keys(window.data)[0];
         var isExist = Boolean(window.data[firstKey][country]);
-        window.render(isExist, country);
+        window.render(false, isExist, country);
     });
 }
 
-window.render = function render (isExist, language) {
-	// if (elem) { elem.preventDefault() };
+window.render = function render (ev, isExist, language) {
+	if (ev){ev.preventDefault();}
 
 	var template = $('#indexTpl').html();
 	var html = null;
