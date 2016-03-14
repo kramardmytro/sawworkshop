@@ -73,18 +73,18 @@
 				<img alt="Saw Workshop" src="img/saw_logo.png" height="21" width="auto">
 			  </a>
 			  
-			  <!-- <img class="language" width="40" onclick="render(true, 'EN', this)" src="/img/flags/earth_white.png"> -->
-			   <a class="navbar-brand" href="#" id="EN" onclick="render(true, 'EN', this)">
+
+			   <a class="navbar-brand" href="#" id="EN" onclick="return render(true, 'EN');">
 			  	<img class="language" width="30" src="/img/flags/eu.png">
 			   </a>
 			   <a class="navbar-brand" id="DE" href="#">
-			  	<img class="language" width="30" onclick="render(true, 'DE', this)" src="/img/flags/de.png">
+			  	<img class="language" width="30" onclick="return render(true, 'DE');" src="/img/flags/de.png">
 			   </a>
 			   <a class="navbar-brand" id="ES" href="#">
-			  	<img class="language" width="30" onclick="render(true, 'ES', this)" src="/img/flags/es.png">
+			  	<img class="language" width="30" onclick="return render(true, 'ES');" src="/img/flags/es.png">
 			   </a>
 			   <a class="navbar-brand" id="Dutch" href="#">
-			  	<img class="language" width="33" onclick="render(true, 'Dutch', this)" src="/img/flags/benelux.png">
+			  	<img class="language" width="33" onclick="return render(true, 'Dutch');" src="/img/flags/benelux.png">
 			   </a>
 
 			</div>
@@ -567,8 +567,8 @@ function getCountry(lat, lng){
     });
 }
 
-window.render = function render (isExist, language, elem) {
-	if (elem) { elem.preventDefault() };
+window.render = function render (isExist, language) {
+	// if (elem) { elem.preventDefault() };
 
 	var template = $('#indexTpl').html();
 	var html = null;
