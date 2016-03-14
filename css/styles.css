@@ -693,26 +693,26 @@ a {
    
 @media all and (max-height: 640px) {
 
-.middle img{
-	width: 45%;
-	height: auto;
+	.middle img{
+		width: 45%;
+		height: auto;
+	}
+
+	.middle p{
+		font-size: 250%;
+	}
+
+	.thanks{
+		height:65%;
+	}
+
+	.ftr_2{
+		height: 35%;
+	}
+
 }
 
-.middle p{
-	font-size: 250%;
-}
-
-.thanks{
-	height:65%;
-}
-
-.ftr_2{
-	height: 35%;
-}
-
-   }
-
-img.language:hover, img.language.choose{
+img.language:hover, a.choose img.language{
   border-color: #fff solid 1px;
   -moz-box-shadow: 0 0 10px #fff;
   -webkit-box-shadow: 0 0 10px #fff;

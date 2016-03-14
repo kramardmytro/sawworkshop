@@ -77,18 +77,18 @@
 				<img alt="Saw Workshop" src="img/saw_logo.png" height="21" width="auto">
 			  </a>
 			  
-			  <!-- <img class="language" width="40" onclick="render(true, 'EN', this)" src="/img/flags/earth_white.png"> -->
-			   <a class="navbar-brand" href="#" onclick="render(true, 'EN', this)">
+			  <!-- <img class="language" width="40" onclick="render(true, 'EN')" src="/img/flags/earth_white.png"> -->
+			   <a class="navbar-brand" href="#" id="EN" onclick="render(true, 'EN', this)">
 			  	<img class="language" width="30" src="/img/flags/eu.png">
 			   </a>
-			   <a class="navbar-brand" href="#">
-			  	<img class="language" width="30" onclick="render(true, 'DE', this)" src="/img/flags/de.png">
+			   <a class="navbar-brand" id="DE" href="#">
+			  	<img class="language" width="30" onclick="render(true, 'DE')" src="/img/flags/de.png">
 			   </a>
-			   <a class="navbar-brand" href="#">
-			  	<img class="language" width="30" onclick="render(true, 'ES', this)" src="/img/flags/es.png">
+			   <a class="navbar-brand" id="ES" href="#">
+			  	<img class="language" width="30" onclick="render(true, 'ES')" src="/img/flags/es.png">
 			   </a>
-			   <a class="navbar-brand" href="#">
-			  	<img class="language" width="33" onclick="render(true, 'Dutch', this)" src="/img/flags/benelux.png">
+			   <a class="navbar-brand" id="Dutch" href="#">
+			  	<img class="language" width="33" onclick="render(true, 'Dutch')" src="/img/flags/benelux.png">
 			   </a>
 
 			</div>
@@ -570,21 +570,22 @@ function getCountry(lat, lng){
     });
 }
 
-window.render = function render (isExist, language, img) {
+window.render = function render (isExist, language) {
 	event.preventDefault();
 
 	var template = $('#indexTpl').html();
 	var html = null;
+	var lang = isExist ? language : 'EN';
 	var currentData = transform();
 	
 	html = Mustache.to_html(template, currentData);
 
 	$('#sampleArea').html(html);
 
+	$('#'+lang).addClass('choose');
 
 	function transform () {
 		var keys = Object.keys(window.data);
-		var lang = isExist ? language : 'EN';
 
 		var dutch = ['BE', 'NL', 'LU'];
 
