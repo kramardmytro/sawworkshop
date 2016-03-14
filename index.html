@@ -523,7 +523,7 @@
 	</div>
 
 </script>
-<script type="text/javascript">
+<script async type="text/javascript">
 
 	function showPosition(position) {
 		$.post( 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD95pD3EF2_j1Q4gocG8YwH6GBiMyGSVYs', function( data ) {
@@ -534,7 +534,7 @@
 	    .fail(function(data){
 	        console.log('geolocation fail');
 	        console.log(data);
-	        $('#demo').after('<p>Something wrong:' + data.responseText + '</p>');
+	        // $('#demo').after('<p>Something wrong:' + data.responseText + '</p>');
 	    });
     
 	}
