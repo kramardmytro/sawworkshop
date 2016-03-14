@@ -1,33 +1,16 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-
-<meta property="og:title" content="Sawworkshop" />
-<meta property="og:description" content="Perfect lightboxes for drawing sketches" />
-<meta property="og:image" content="http://www.sawworkshop.com/img/main_carousel/LED_panel_sketch.jpg" />
-<meta property="og:image:width" content="1800" />
-<meta property="og:image:height" content="900" />
-<meta property="og:site_name" content="www.sawworkshop.com" />
-<meta property="og:url" content="http://www.sawworkshop.com" />
-
-<meta property="Title" content="Sawworkshop" />
-<meta property="Description" content="Perfect lightboxes for drawing sketches" />
-<meta property="Image" content="http://www.sawworkshop.com/img/main_carousel/LED_panel_sketch.jpg" />
-
 <link href="http://www.sawworkshop.com/favicon_16.png" sizes="16x16" rel="shortcut icon" type="image/png">
 <link href="http://www.sawworkshop.com/favicon_192.png" sizes="192x192" rel="icon" type="image/png">
 <title>Perfect lightboxes for drawing sketches</title>
-<link rel='stylesheet' href='/css/bootstrap.min.css' type='text/css' media='all'>
-<link href="/css/styles.css" rel="stylesheet">
+<link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' media='all'>
+<link href="css/styles.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/mustache.js"></script>
-
-
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -50,11 +33,6 @@
 	});
 </script>
 <!--Mobile Navbar Collapse-->
-<div id="sampleArea"></div>
-
-<script type="text/javascript" charset="UTF-8" src="/js/content.js"></script>
-<script type="text/template" id="indexTpl">
-	<!--Mobile Navbar Collapse-->
 	<div class="container-fluid">
 
 
@@ -72,29 +50,14 @@
 			  <a class="navbar-brand" href="http://www.sawworkshop.com/">
 				<img alt="Saw Workshop" src="img/saw_logo.png" height="21" width="auto">
 			  </a>
-			  
-			  <!-- <img class="language" width="40" onclick="render(true, 'EN', this)" src="/img/flags/earth_white.png"> -->
-			   <a class="navbar-brand" href="#" onclick="render(true, 'EN', this)">
-			  	<img class="language" width="30" src="/img/flags/eu.png">
-			   </a>
-			   <a class="navbar-brand" href="#">
-			  	<img class="language" width="30" onclick="render(true, 'DE', this)" src="/img/flags/de.png">
-			   </a>
-			   <a class="navbar-brand" href="#">
-			  	<img class="language" width="30" onclick="render(true, 'ES', this)" src="/img/flags/es.png">
-			   </a>
-			   <a class="navbar-brand" href="#">
-			  	<img class="language" width="33" onclick="render(true, 'Dutch', this)" src="/img/flags/benelux.png">
-			   </a>
-
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="#what">{{ what }}</a></li>
-				<li><a href="#why">{{ why }}</a></li>
-				<li><a href="#who">{{ who }}</a></li>
+				<li><a href="#what">What</a></li>
+				<li><a href="#why">Why</a></li>
+				<li><a href="#who">Who</a></li>
 			  </ul>
 			</div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -163,14 +126,14 @@
 		</div>
 
 		<div class="row info container-fluid">
-			<div class="col-sm-5 col-md-5 col-lg-5">
-				<p class="text-center" style="text-align:left; padding-top:4%">{{ light }}</p>
-			</div>
-			<div class="col-sm-3 col-md-3 col-lg-3">
-				<p class="text-center" style="text-align:left; padding-top:7%">{{ lifelong }}</p>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+				<p>Lightbox for drawing sketches</p>
 			</div>
 			<div class="col-sm-4 col-md-4 col-lg-4">
-				<p class="text-right" style="padding-top:5%;">{{ free }}</p>
+				<p class="text-center">Lifelong warranty</p>
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-4">
+				<p class="text-right">Free shipping</p>
 			</div>
 		</div>
 
@@ -181,7 +144,7 @@
                     <input type='hidden' name='sid' value='102505363'>
                     <input type='hidden' name='quantity' value='1'>
                     <input type='hidden' name='product_id' value='1'>
-                    <input name='submit' type='submit' class="btn btn-success btn-lg btn-block" value='{{ buy }} €135' >
+                    <input name='submit' type='submit' class="btn btn-success btn-lg btn-block" value='Buy €135' >
                     </form>
 
 		</div>
@@ -198,11 +161,7 @@
 			<iframe width="100%" height="350" src="https://www.youtube.com/embed/apwgJwHpgPA" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="col-sm-5 col-md-5 col-lg-5">
-			<h3 class="pull-right" style="padding-top: 20%;">
-			
-			<span style="color: #1ABC9C;"><p>{{ wassup1 }}</p></span>
-			<br />
-			<small>{{ wassup2 }}</small>
+			<h3 class="pull-right" style="padding-top: 20%;"><span style="color: #1ABC9C;"><p>Wassup! We are Saw Workshop's Team!</p></span><br><small>We produce top-quality handcrafted light-panels. It is a useful tool for tattooists. Each artist can draw sketches faster and more convenient with our stuff.</small></h3>
 		</div>
 		<div class="col-sm-1 col-md-1 col-lg-1">
 		</div>
@@ -212,9 +171,9 @@
 		<div class="col-sm-1 col-md-1 col-lg-1">
 		</div>
 		<div class="col-sm-5 col-md-5 col-lg-5">
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ draw1 }}<br><small>{{ draw2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ finding1 }}<br><small>{{ finding2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ handmade1 }}<br><small>{{ handmade2 }}</small></h3>
+			<h3><span class="glyphicon glyphicon-ok"></span> Draw wherever you want<br><small>No need to find where to draw anymore - your only place for drawing always with you.</small></h3>
+			<h3><span class="glyphicon glyphicon-ok"></span> Applicable for everyone<br><small>Each item in tattoo artist's life is really unique and non-giftable, but not a LED panel. LED panel will be the best friend for every tattooist because every tattooist draws sketches.</small></h3>
+			<h3><span class="glyphicon glyphicon-ok"></span> Handmade<br><small>All panels are handcrafted at a local workshop in Kyiv, combining true Ukrainian love and European quality.</small></h3>
 		</div>
 		<div class="col-sm-5 col-md-5 col-lg-5 video">
 			<iframe width="100%" height="350" src="https://www.youtube.com/embed/VJObkquzYYA" frameborder="0" allowfullscreen></iframe>
@@ -230,9 +189,9 @@
 			<iframe width="100%" height="350" src="https://www.youtube.com/embed/WJ0FaKM-048" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="col-sm-5 col-md-5 col-lg-5">
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ frees1 }}<br><small> {{ frees2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ designed1 }}<br><small> {{ designed2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ brightness1 }}<br><small>{{ brightness2 }}</small></h3>
+			<h3><span class="glyphicon glyphicon-ok"></span> Frees up time<br><small>Tattoo artists draw sketches 30-60% faster through the use of panels.</small></h3>
+			<h3><span class="glyphicon glyphicon-ok"></span> Designed for sketching<br><small>Workspace of the panel has size equals to A3 paper. Also, it is divided into centimeter squares. This is especially good for drawing geometric patterns.</small></h3>
+			<h3><span class="glyphicon glyphicon-ok"></span> Brightness control<br><small> The panel is connected to the power supply of tattoo machines via clip cord. An artist can adjust the brightness of the panel by adjusting the voltage.</small></h3>
 		</div>
 		<div class="col-sm-1 col-md-1 col-lg-1">
 		</div>
@@ -257,20 +216,20 @@
 		  <div class="carousel-inner">
 			<div class="item minor-first active">
 			  <div class="carousel-caption">
-				<p class="maintext">{{ ourMission1 }}</p>
-				<p class="othertext">{{ ourMission2 }}</p>
+				<p class="maintext">Our mission</p>
+				<p class="othertext">Improve tattooists environments for the best things birth</p>
 			  </div>
 			</div>
 			<div class="item minor-second ">
 			  <div class="carousel-caption">
-				<p class="maintext">{{ ourValues1 }}</p>
-				<p class="othertext">{{ ourValues2 }}</p>
+				<p class="maintext">Our values</p>
+				<p class="othertext">We do care about the quality of our product to deliver comfort and pleasure into tattooist's workplace</p>
 			  </div>
 			</div>
 			<div class="item minor-third ">
 			  <div class="carousel-caption">
-				<p class="maintext">{{ ourVision1 }}</p>
-				<p class="othertext">{{ ourVision2 }}</p>
+				<p class="maintext">Our vision</p>
+				<p class="othertext">Saw Workshop is the supplier of efficient and pleasurable stuff for tattoo artists well-recognizable in Europe</p>
 			  </div>
 			</div>
 		  </div>
@@ -292,15 +251,14 @@
 	  </div></a>
 
 	  <div class="row container-fluid">
-		<h2 class="text-center">{{ crew }}</h2>
+		<h2 class="text-center">Crew of workshop</h2>
 		<div class="col-sm-4 col-md-4 col-lg-4">
 		  <div class="team">
 			<img src="img/team/michael.png" class="img-responsive" alt="Michael">
 			<h4><strong>Michael Glavatskyh</strong></h4>
-			<p><strong>{{ team1 }}</strong> {{ team2 }}
+			<p><strong>Team captain</strong> who makes the others work easier.
 			</p>
-			<p>{{ team3 }}</p>
-			<br/>
+			<p>Strategy, vision, growth</p>
 			<div class="address">
 				<a href="https://www.facebook.com/glavat" target="_blank"><p>fb.com/glavat</p></a>
 			</div>
@@ -310,25 +268,25 @@
 		  <div class="team">
 			<img src="img/team/vladimir.png" class="img-responsive" alt="Vladimir">
 			<h4><strong>Vladimir Pyletsky</strong></h4>
-			<p><strong>{{ technical1 }}</strong> {{ technical2 }}</p>
-			<p>{{ technical3 }}</p>
+			<p><strong>Technical engineer</strong> who designs and assembles panels, gaining maximum usability and efficiency.</p>
+			<p>Components supply, producing</p>
 			<div class="address">
 				<a href="https://www.facebook.com/vov.saw" target="_blank"><p>fb.com/vov.saw</p></a>
 			</div>
 		  </div>
 		</div>
-		<!-- <div class="col-sm-3 col-md-3 col-lg-3">
+		<!--div class="col-sm-4 col-md-4 col-lg-4">
 		  <div class="team">
 			<img src="img/team/bohdan.png" class="img-responsive" alt="Bohdan">
 			<h4><strong>Bohdan Yaremchuk</strong></h4>
-			<p><strong>Speaker</strong> who promotes workshops stuff around the Universe.
+			<p><strong>Speaker</strong> who promotes workshop's stuff around the Universe.
 			</p>
 			<p>Customer relationships, promo, PR</p>
 			<div class="address">
 				<a href="https://www.facebook.com/byaremchuk" target="_blank"><p>fb.com/byaremchuk</p></a>
 			</div>
 		  </div>
-		</div> -->
+		</div-->
 		<div class="col-sm-4 col-md-4 col-lg-4">
 		  <div class="team">
 			<img src="img/team/dan.png" class="img-responsive" alt="Dan">
@@ -336,7 +294,6 @@
 			<p><strong>Social</strong> networker who communicates via facebook and instagram.
 			</p>
 			<p>Customer relationships, promo, PR</p>
-			<br/>
 			<div class="address">
 				<a href="https://www.facebook.com/dan.glavatskyh" target="_blank"><p>fb.com/dan.glavatskyh</p></a>
 			</div>
@@ -487,21 +444,21 @@
 		<div class="col-sm-1 col-md-1 col-lg-1 ">
 		</div>
 		<div class="col-sm-10 col-md-10 col-lg-10 ">
-			<p class="text-center love"> {{ made1 }} <span class="glyphicon glyphicon-heart red"></span> {{ made2 }}</p>
+			<p class="text-center love">Made with <span class="glyphicon glyphicon-heart red"></span> in Ukraine</p>
 		</div>
 		<div class="col-sm-1 col-md-1 col-lg-1 ">
 		</div>
 	  </div>
 	  
 	  <div class="row container-fluid fb_photo">
-		<a href="https://www.facebook.com/media/set/?set=a.1017137051685046.1073741833.673174859414602&type=3" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">{{ show }}</button></a>
+		<a href="https://www.facebook.com/media/set/?set=a.1017137051685046.1073741833.673174859414602&type=3" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">Show me more</button></a>
 	  </div>
 
 	  <div class="row container-fluid ftr">
 		<div class="col-sm-6 col-md-6 col-lg-6">
 		</div>
 		<div class="col-sm-4 col-md-4 col-lg-4 contacts">
-			<h2 class="text-left"> {{ getIn }}</h2>
+			<h2 class="text-left">Get in touch with us</h2>
 			<p>
 			  <a href="mailto:callme@sawworkshop.com"><button type="button" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-envelope pull-left"></span> callme@sawworkshop.com</button>
 			</p>
@@ -518,92 +475,6 @@
 	</div>
 	</div>
 
-</script>
-<script type="text/javascript">
-
-	function showPosition(position) {
-		$.post( 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD95pD3EF2_j1Q4gocG8YwH6GBiMyGSVYs', function( data ) {
-        // console.log('geolocation response');
-        // console.log(data);
-        getCountry(data.location.lat, data.location.lng);
-	    })
-	    .fail(function(data){
-	        console.log('geolocation fail');
-	        console.log(data);
-	        $('#demo').after('<p>Something wrong:' + data.responseText + '</p>');
-	    });
-    
-	}
-
-function getCountry(lat, lng){
-    $.get('http://maps.googleapis.com/maps/api/geocode/json', { latlng: lat + ',' + lng }, function(data) {
-        // console.log(data);
-        // $('#demo').after('<p>Your country: '+ data.results[0].address_components[6].short_name +'</p>');
-        var country = false;
-        var p = data.results;
-        for (var key in p) {
-          if (p.hasOwnProperty(key)) {
-            // console.log(key, " -> ", p[key]);
-            if (p[key].hasOwnProperty('address_components')){
-                var address_components = p[key].address_components;
-                for (var i in address_components) {
-                    // console.log('addr',address_components[i]);
-                    if(address_components[i].hasOwnProperty('types') && JSON.stringify(address_components[i].types) == JSON.stringify(["country", "political"])){
-                        // console.log('country',address_components[i]);
-                        country = address_components[i].short_name;
-                        break;
-                    }
-                    
-                }
-            }
-          }
-        }
-        // $('#demo').after('<p>Response: '+ JSON.stringify(data) +'</p>');
-        // $('#demo').after('<p>Country: '+ country +'</p>');
-        var firstKey = Object.keys(window.data)[0];
-        var isExist = Boolean(window.data[firstKey][country]);
-        window.render(isExist, country);
-    });
-}
-
-window.render = function render (isExist, language, img) {
-	event.preventDefault();
-
-	var template = $('#indexTpl').html();
-	var html = null;
-	var currentData = transform();
-	
-	html = Mustache.to_html(template, currentData);
-
-	$('#sampleArea').html(html);
-
-
-	function transform () {
-		var keys = Object.keys(window.data);
-		var lang = isExist ? language : 'EN';
-
-		var dutch = ['BE', 'NL', 'LU'];
-
-		if (dutch.indexOf(lang) != -1){
-			lang = "Dutch";
-		}
-
-		var result = {};
-		for (var i = 0; i < keys.length; i++) {
-			var key = keys[i];
-			result[key] = window.data[key][lang];
-		}
-
-		return result;
-	}
-}
-
-</script>
-<script type="text/javascript">
-	$(document).ready(function () {
-		showPosition();
-	});
-</script>
 </body>
 
 </html>
