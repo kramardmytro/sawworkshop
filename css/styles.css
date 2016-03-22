@@ -445,7 +445,18 @@ a {
 	opacity: 1;
 }
 
+.navbar-right .dropdown{
+	background-color: #1EA58A;
+}
 
+.navbar-right .dropdown li a{
+	color: #ccc;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color:#fff;
+	background-color: #1EA58A;
+}
 /*----------------------------------*/ 
 
 @media all and (max-width: 480px) {

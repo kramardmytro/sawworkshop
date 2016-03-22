@@ -1,4 +1,10 @@
 window.data = {
+  language: {
+	"EN":"Language",
+    "DE":"Sprache",
+    "ES":"Idioma",
+    "Dutch":"Taal"  
+  },
   light: {
     "EN":"Light panel for sketches drawing",
     "DE":"Lichtbox für Skizzen",
@@ -123,7 +129,7 @@ window.data = {
     "EN":"The panel is connected to the power supply of tattoo machines via clip cord. An artist can adjust the brightness of the panel by adjusting the voltage.",
     "DE":"Das Panel ist an die Stromzufuhr der Tatoomaschine via clip cord angeschlossen. Der Tätowierer kann die Helligkeit des Panels über die Stromzufuhr regulieren.",
     "ES":"El panel se puede conectar a fuente de corriente de las máquinas de tattoo via clip cord. El artista puede ajustar el brillo del panel simplemente ajustando el voltaje. ",
-    "Dutch":"Het paneel wordt gevoed met het clip cord dat uit je tattoovoeding komt. Je kunt de helderheid helemaal naar wens instellen door aan de spanning van je voeding te draaien."
+    "Dutch":"Het paneel wordt gevoed met het dat uit een tattoovoeding komt. Je kunt de helderheid helemaal naar wens instellen door aan de spanning van je voeding te draaien."
   },
   ourMission1:{
     "EN":"Our mission",
@@ -147,7 +153,7 @@ window.data = {
     "EN":"We do care about the quality of our product to deliver comfort and pleasure into tattooist's workplace",
     "DE":"Wir legen großen Wert auf die Qualität unserer Produkte um in die Arbeitsumgebung von Tätowierern so angenehm wie möglich zu gestalten",
     "ES":"Nos preocupamos de que la calidad de nuestros productos para asegurar comodidad y satisfacción en el ambiente de trabajo del tatuador.",
-    "Dutch":"Wij vinden het belangrijk dat onze producten gemakkelijk werken en een tattoo artist een goed geval geven."
+    "Dutch":"Wij vinden het belangrijk dat onze producten gemakkelijk werken en een geval has to be gevoel."
   },
   ourVision1:{
     "EN":"Our vision",
@@ -202,6 +208,24 @@ window.data = {
     "DE":"Komponentenversorgung, Produktion",
     "ES":"la máxima calidad y eficacia. ",
     "Dutch":"Verantwoordelijk voor maximaal gebruikersgemak, onderdelen kopen en de productie."
+  },
+    pr1:{
+    "EN":"Social",
+    "DE":"Social",
+    "ES":"Social",
+    "Dutch":"Social"
+  },
+  pr2:{
+    "EN":"networker who communicates via Facebook and Instagram.",
+    "DE":"networker who communicates via Facebook and Instagram.",
+    "ES":"networker who communicates via Facebook and Instagram.",
+    "Dutch":"media contact persoon. Communicatie via Facebook en Instagram."
+  },
+  pr3:{
+    "EN":"Customer relationships, promo, PR.",
+    "DE":"Customer relationships, promo, PR.",
+    "ES":"Customer relationships, promo, PR.",
+    "Dutch":"Klantencontact, promoties en PR."
   },
   speaker:{
     "EN":"Speaker who promotes workshop's stuff around the Universe. Customer relationships, promo, PR\n",
