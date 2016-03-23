@@ -44,133 +44,133 @@
 <!-- End Google Tag Manager -->
 <!--Mobile Navbar Collapse-->
 <script>
-	$(document).ready(function () {
-	  $(".navbar-nav li a").click(function(event) {
-		$(".navbar-collapse").collapse('hide');
-	  });
-	});
+    $(document).ready(function () {
+      $(".navbar-nav li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+      });
+    });
 </script>
 <!--Mobile Navbar Collapse-->
 <div id="sampleArea"></div>
 
 <script type="text/javascript" charset="UTF-8" src="/js/content.js"></script>
 <script type="text/template" id="indexTpl">
-	<!--Mobile Navbar Collapse-->
-	<div class="container-fluid scroll">
+    <!--Mobile Navbar Collapse-->
+    <div class="container-fluid scroll">
 
 
-	  <div class="row container-fluid">
-		<nav class="navbar navbar-default navbar-fixed-top">
-		  <div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <a class="navbar-brand" href="http://www.sawworkshop.com/">
-				<img alt="Saw Workshop" src="img/saw_logo.png" height="21" width="auto">
-			  </a>
-			</div>
+      <div class="row container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://www.sawworkshop.com/">
+                <img alt="Saw Workshop" src="img/saw_logo.png" height="21" width="auto">
+              </a>
+            </div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  <ul class="nav navbar-nav navbar-right">
-				<li><a href="#what">{{ what }}</a></li>
-				<li><a href="#why">{{ why }}</a></li>
-				<li><a href="#who">{{ who }}</a></li>
-				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> {{ language }} <span class="caret"></span></a>
-				  <ul class="dropdown-menu">
-					<li><a id="ES" href="#" onclick="render(event, true, 'ES');"><span><img src="img/flags/es.png" width="25"></span> Spain</a></li>
-					<li><a id="DE" href="#" onclick="render(event, true, 'DE');"><span><img src="img/flags/de.png" width="25"></span> German</a></li>
-					<li><a id="Dutch" href="#" onclick="render(event, true, 'Dutch');"><span><img src="img/flags/benelux.png" width="25"></span> Dutch</a></li>
-					<li><a id="EN" href="#" onclick="return render(event, true, 'EN');"><span><img src="img/flags/eu.png" width="25"></span> Europe</a></li>
-					<li><a id="EN" href="#" onclick="return render(event, true, 'EN');"><span><img src="img/flags/earth.png" width="25"></span> Rest of the World</a></li>
-				  </ul>
-				</li>
-			  </ul>
-			</div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-	  </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#what">{{ what }}</a></li>
+                <li><a href="#why">{{ why }}</a></li>
+                <li><a href="#who">{{ who }}</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> {{ language }} <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a id="ES" href="?lang=ES"><span><img src="img/flags/es.png" width="25"></span> Spain</a></li>
+                    <li><a id="DE" href="?lang=DE"><span><img src="img/flags/de.png" width="25"></span> German</a></li>
+                    <li><a id="Dutch" href="?lang=Dutch"><span><img src="img/flags/benelux.png" width="25"></span> Dutch</a></li>
+                    <li><a id="EN" href="?lang=EN"><span><img src="img/flags/eu.png" width="25"></span> Europe</a></li>
+                    <li><a id="EN" href="?lang=EN"><span><img src="img/flags/earth.png" width="25"></span> Rest of the World</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
 
 
-	  <div class="row all-window-height container-fluid">
+      <div class="row all-window-height container-fluid">
 
-		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="5"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="6"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="7"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="8"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="9"></li>
-		  </ol>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+          </ol>
 
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner">
-				<div class="item main-first active">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-second">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-third">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-fourth">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-fifth">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-sixth">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-seventh">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-eighth">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-nineth">
-				  <div class="carousel-caption"></div>
-				</div>
-				<div class="item main-tenth">
-				  <div class="carousel-caption"></div>
-				</div>
-		  </div>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+                <div class="item main-first active">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-second">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-third">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-fourth">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-fifth">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-sixth">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-seventh">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-eighth">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-nineth">
+                  <div class="carousel-caption"></div>
+                </div>
+                <div class="item main-tenth">
+                  <div class="carousel-caption"></div>
+                </div>
+          </div>
 
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-		  </a>
-		</div>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
 
-		<div class="row info container-fluid">
-			<div class="col-sm-5 col-md-5 col-lg-5">
-				<p class="text-center" style="text-align:left; padding-top:4%">{{ light }}</p>
-			</div>
-			<div class="col-sm-3 col-md-3 col-lg-3">
-				<p class="text-center" style="text-align:left; padding-top:7%">{{ lifelong }}</p>
-			</div>
-			<div class="col-sm-4 col-md-4 col-lg-4">
-				<p class="text-right" style="padding-top:5%;">{{ free }}</p>
-			</div>
-		</div>
+        <div class="row info container-fluid">
+            <div class="col-sm-5 col-md-5 col-lg-5">
+                <p class="text-center" style="text-align:left; padding-top:4%">{{ light }}</p>
+            </div>
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <p class="text-center" style="text-align:left; padding-top:7%">{{ lifelong }}</p>
+            </div>
+            <div class="col-sm-4 col-md-4 col-lg-4">
+                <p class="text-right" style="padding-top:5%;">{{ free }}</p>
+            </div>
+        </div>
 
-		<div class="row buy container-fluid">
+        <div class="row buy container-fluid">
 
 
                     <form action='https://www.2checkout.com/checkout/purchase' method='post'>
@@ -180,356 +180,362 @@
                     <input name='submit' type='submit' class="btn btn-success btn-lg btn-block" value='{{ buy }} €135' >
                     </form>
 
-		</div>
+        </div>
 
-	  </div>
+      </div>
 
-	  <a name="what"><div class="row container-fluid">
-	  </div></a>
+      <a name="what"><div class="row container-fluid">
+      </div></a>
 
-		<div class="row container-fluid" style="padding-top: 5%; padding-bottom: 5%;">
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5 video">
-			<iframe width="100%" height="350" src="https://www.youtube.com/embed/apwgJwHpgPA" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5">
-			<h3 class="pull-right" style="padding-top: 20%;">
-			
-			<span style="color: #1ABC9C;"><p>{{ wassup1 }}</p></span>
-			<br />
-			<small>{{ wassup2 }}</small>
-		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-	  </div>
+        <div class="row container-fluid" style="padding-top: 5%; padding-bottom: 5%;">
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5 video">
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/apwgJwHpgPA" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5">
+            <h3 class="pull-right" style="padding-top: 20%;">
+            
+            <span style="color: #1ABC9C;"><p>{{ wassup1 }}</p></span>
+            <br />
+            <small>{{ wassup2 }}</small>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+      </div>
 
-	  <div class="row container-fluid">
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5">
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ draw1 }}<br><small>{{ draw2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ finding1 }}<br><small>{{ finding2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ handmade1 }}<br><small>{{ handmade2 }}</small></h3>
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5 video">
-			<iframe width="100%" height="350" src="https://www.youtube.com/embed/VJObkquzYYA" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-	  </div>
+      <div class="row container-fluid">
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5">
+            <h3><span class="glyphicon glyphicon-ok"></span> {{ draw1 }}<br><small>{{ draw2 }}</small></h3>
+            <h3><span class="glyphicon glyphicon-ok"></span> {{ finding1 }}<br><small>{{ finding2 }}</small></h3>
+            <h3><span class="glyphicon glyphicon-ok"></span> {{ handmade1 }}<br><small>{{ handmade2 }}</small></h3>
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5 video">
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/VJObkquzYYA" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+      </div>
 
-	  <div class="row container-fluid line">
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5 video">
-			<iframe width="100%" height="350" src="https://www.youtube.com/embed/WJ0FaKM-048" frameborder="0" allowfullscreen></iframe>
-		</div>
-		<div class="col-sm-5 col-md-5 col-lg-5">
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ frees1 }}<br><small> {{ frees2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ designed1 }}<br><small> {{ designed2 }}</small></h3>
-			<h3><span class="glyphicon glyphicon-ok"></span> {{ brightness1 }}<br><small>{{ brightness2 }}</small></h3>
-		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-	  </div>
-
-
-
-	  <a name="why"><div class="row container-fluid">
-	  </div></a>
-
-	  <div class="row container-fluid all-window-height">
-
-		<div id="carousel-example-generic-two" class="carousel slide" data-ride="carousel">
-		  <!-- Indicators -->
-		  <ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic-two" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic-two" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic-two" data-slide-to="2"></li>
-		  </ol>
-
-		  <!-- Wrapper for slides -->
-		  <div class="carousel-inner">
-			<div class="item minor-first active">
-			  <div class="carousel-caption">
-				<p class="maintext">{{ ourMission1 }}</p>
-				<p class="othertext">{{ ourMission2 }}</p>
-			  </div>
-			</div>
-			<div class="item minor-second ">
-			  <div class="carousel-caption">
-				<p class="maintext">{{ ourValues1 }}</p>
-				<p class="othertext">{{ ourValues2 }}</p>
-			  </div>
-			</div>
-			<div class="item minor-third ">
-			  <div class="carousel-caption">
-				<p class="maintext">{{ ourVision1 }}</p>
-				<p class="othertext">{{ ourVision2 }}</p>
-			  </div>
-			</div>
-		  </div>
-
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#carousel-example-generic-two" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-		  </a>
-		  <a class="right carousel-control" href="#carousel-example-generic-two" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-		  </a>
-		</div>
-
-	  </div>
+      <div class="row container-fluid line">
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5 video">
+            <iframe width="100%" height="350" src="https://www.youtube.com/embed/WJ0FaKM-048" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5">
+            <h3><span class="glyphicon glyphicon-ok"></span> {{ frees1 }}<br><small> {{ frees2 }}</small></h3>
+            <h3><span class="glyphicon glyphicon-ok"></span> {{ designed1 }}<br><small> {{ designed2 }}</small></h3>
+            <h3><span class="glyphicon glyphicon-ok"></span> {{ brightness1 }}<br><small>{{ brightness2 }}</small></h3>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+      </div>
 
 
 
-	  <a name="who"><div class="row container-fluid">
-	  </div></a>
+      <a name="why"><div class="row container-fluid">
+      </div></a>
 
-	  <div class="row container-fluid">
-		<h2 class="text-center" style="padding-top:4%;">{{ crew }}</h2>
-		<div class="col-sm-4 col-md-4 col-lg-4">
-		  <div class="team">
-			<img src="img/team/michael.png" class="img-responsive" alt="Michael">
-			<h4><strong>Michael Glavatskyh</strong></h4>
-			<p><strong>{{ team1 }}</strong> {{ team2 }}
-			</p>
-			<p>{{ team3 }}</p>
-			<br/>
-			<div class="address">
-				<a href="https://www.facebook.com/glavat" target="_blank"><p>fb.com/glavat</p></a>
-			</div>
-		  </div>
-		</div>
-		<div class="col-sm-4 col-md-4 col-lg-4">
-		  <div class="team">
-			<img src="img/team/vladimir.png" class="img-responsive" alt="Vladimir">
-			<h4><strong>Vladimir Pyletsky</strong></h4>
-			<p><strong>{{ technical1 }}</strong> {{ technical2 }}</p>
-			<p>{{ technical3 }}</p>
-			<div class="address">
-				<a href="https://www.facebook.com/vov.saw" target="_blank"><p>fb.com/vov.saw</p></a>
-			</div>
-		  </div>
-		</div>
-		<!-- <div class="col-sm-3 col-md-3 col-lg-3">
-		  <div class="team">
-			<img src="img/team/bohdan.png" class="img-responsive" alt="Bohdan">
-			<h4><strong>Bohdan Yaremchuk</strong></h4>
-			<p><strong>Speaker</strong> who promotes workshops stuff around the Universe.
-			</p>
-			<p>Customer relationships, promo, PR</p>
-			<div class="address">
-				<a href="https://www.facebook.com/byaremchuk" target="_blank"><p>fb.com/byaremchuk</p></a>
-			</div>
-		  </div>
-		</div> -->
-		<div class="col-sm-4 col-md-4 col-lg-4">
-		  <div class="team">
-			<img src="img/team/dan.png" class="img-responsive" alt="Dan">
-			<h4><strong>Dan Glavatskyh</strong></h4>
-			<p><strong>{{ pr1 }}</strong> {{ pr2 }}</p>
-			<p>{{ pr3 }}</p>
-			<br/>
-			<div class="address">
-				<a href="https://www.facebook.com/dan.glavatskyh" target="_blank"><p>fb.com/dan.glavatskyh</p></a>
-			</div>
-		  </div>
-		</div>
+      <div class="row container-fluid all-window-height">
 
-	  </div>
+        <div id="carousel-example-generic-two" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic-two" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic-two" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic-two" data-slide-to="2"></li>
+          </ol>
 
-		<div class="row container-fluid">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item minor-first active">
+              <div class="carousel-caption">
+                <p class="maintext">{{ ourMission1 }}</p>
+                <p class="othertext">{{ ourMission2 }}</p>
+              </div>
+            </div>
+            <div class="item minor-second ">
+              <div class="carousel-caption">
+                <p class="maintext">{{ ourValues1 }}</p>
+                <p class="othertext">{{ ourValues2 }}</p>
+              </div>
+            </div>
+            <div class="item minor-third ">
+              <div class="carousel-caption">
+                <p class="maintext">{{ ourVision1 }}</p>
+                <p class="othertext">{{ ourVision2 }}</p>
+              </div>
+            </div>
+          </div>
 
-			<a class="more" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-			  <p class="text-center"><span class="glyphicon glyphicon-user"></span> Big picture</p>
-			</a>
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic-two" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic-two" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
 
-			<div class="collapse" id="collapseExample">
-			  <div class="well">
-				<div class="row">
-				<div class="col-sm-1 col-mg-1 col-lg-1">
-				</div>
-
-				<div class="col-sm-2 col-md-2 col-lg-2 team2">
-					<img src="img/team/ann.png" class="img-responsive" alt="Ann">
-					<h4><strong>Ann Glavatskyh</strong></h4>
-					<p>An inspiration
-					<br></br>
-					</p>
-				</div>
-
-				<div class="col-sm-2 col-md-2 col-lg-2 team2">
-					<img src="img/team/kostya.png" class="img-responsive" alt="Kostya">
-					<h4><strong>Kostya Martynenko</strong></h4>
-					<p>The man whose main goal is to make our product sold. Internet marketing, SEO, sales
-					<br></br>
-					</p>
-				</div>
-
-				<div class="col-sm-2 col-md-2 col-lg-2 team2">
-					<img src="img/team/artem1.png" class="img-responsive" alt="Artem1">
-					<h4><strong>Artem Maksimenko</strong></h4>
-					<p>The man who has come to us in the hard time, helped and stays with us
-					<br></br>
-					</p>
-				</div>
-
-				<!--div class="col-sm-2 col-md-2 col-lg-2 team2">
-					<img src="img/team/dan.png" class="img-responsive" alt="Dan">
-					<h4><strong>Dan Glavatskyh</strong></h4>
-					<p>All parcels are packed with his pure love
-					<br></br>
-					</p>
-				</div-->
-
-				<div class="col-sm-2 col-md-2 col-lg-2 team2">
-					<img src="img/team/anton.png" class="img-responsive" alt="Anton">
-					<h4><strong>Anton Kuzmenko</strong></h4>
-					<p>Production team, animation
-					<br></br>
-					</p>
-				</div>
-
-				<div class="col-sm-2 col-md-2 col-lg-2 team2">
-					<img src="img/team/ihor.png" class="img-responsive" alt="Ihor">
-					<h4><strong>Ihor Kuzin</strong></h4>
-					<p>Production team, editing
-					<br></br>
-					</p>
-				</div>
-				
-				<div class="col-sm-1 col-md-1 col-lg-1">
-				</div>
-
-			  </div>
-			</div>
-
-			<div class="row">
-			<div class="col-sm-2 col-mg-2 col-lg-2">
-			</div>
-
-			<!--div class="col-sm-2 col-md-2 col-lg-2 team2">
-				<img src="img/team/ihor.png" class="img-responsive" alt="Ihor">
-				<h4><strong>Ihor Kuzin</strong></h4>
-				<p>Production team, editing
-				<br></br>
-				</p>
-			</div-->
-
-			<div class="col-sm-2 col-md-2 col-lg-2 team2">
-				<img src="img/team/artem.png" class="img-responsive" alt="Artem">
-				<h4><strong>Artem Sinitsyn</strong></h4>
-				<p>Production team, shooting
-				<br></br>
-				</p>
-			</div>
-
-			<div class="col-sm-2 col-md-2 col-lg-2 team2">
-				<img src="img/team/ros.png" class="img-responsive" alt="Ros">
-				<h4><strong>Ros Vynnytskyi</strong></h4>
-				<p>Webdev team, backend
-				<br></br>
-				</p>
-			</div>
-
-			<div class="col-sm-2 col-md-2 col-lg-2 team2">
-				<img src="img/team/valery.png" class="img-responsive" alt="Valery">
-				<h4><strong>Valeriy Shkolniy</strong></h4>
-				<p>Webdev team, frontend
-				<br></br>
-				</p>
-			</div>
-
-			<div class="col-sm-2 col-md-2 col-lg-2 team2">
-				<img src="img/team/dmytro.png" class="img-responsive" alt="Dmytro">
-				<h4><strong>Dmytro Kramar</strong></h4>
-				<p>Webdev team, frontend, design
-				<br></br>
-				</p>
-			</div>
-
-			<div class="col-sm-2 col-md-2 col-lg-2">
-			</div>
-
-			</div>
-
-		</div>
-		</div>
+      </div>
 
 
-	  <div class="row container-fluid">
-		<h2 class="text-center">Distributors</h2>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-		<div class="col-sm-10 col-md-10 col-lg-10">
-		  <div class="row distr-opacity" style="margin-bottom: 5%;">
-			<div class="col-sm-5 col-md-5 col-lg-5" style="padding-top: 2%;"><a href="http://www.killerinktattoo.co.uk/" target="_blank"><img src="img/killer_ink.png" alt="Killer Ink" title="Killer Ink, Great Britain" class="img-responsive" style="max-height: 100px;"></a>
-			</div>
-			<div class="col-sm-5 col-md-5 col-lg-5" style="padding-top: 2%;"><a href="http://www.tattoogoods.de/" target="_blank"><img src="img/jtlshop.png" title="Tattoo Goods, Germany" class="img-responsive" alt="Tattoo Goods" style="max-height: 100px;"></a>
-			</div>
-			<div class="col-sm-2 col-md-2 col-lg-2"><a href="http://www.nordictattoosupplies.com/" target="_blank"><img src="img/nordic_tatto.png" title="Nordic Tattoo Supplies, Finland" class="img-responsive" alt="Nordic Tattoo" style="max-height: 160px;"></a>
-			</div>
-		  </div>
-		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1">
-		</div>
-	  </div>
 
-		
-	  <div class="row container-fluid">
-		<div class="col-sm-1 col-md-1 col-lg-1 ">
-		</div>
-		<div class="col-sm-10 col-md-10 col-lg-10 ">
-			<p class="text-center love"> {{ made1 }} <span class="glyphicon glyphicon-heart red"></span> {{ made2 }}</p>
-		</div>
-		<div class="col-sm-1 col-md-1 col-lg-1 ">
-		</div>
-	  </div>
-	  
-	  <div class="row container-fluid fb_photo">
-		<a href="https://www.facebook.com/media/set/?set=a.1017137051685046.1073741833.673174859414602&type=3" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">{{ show }}</button></a>
-	  </div>
+      <a name="who"><div class="row container-fluid">
+      </div></a>
 
-	  <div class="row container-fluid ftr">
-		<div class="col-sm-6 col-md-6 col-lg-6">
-		</div>
-		<div class="col-sm-4 col-md-4 col-lg-4 contacts">
-			<h2 class="text-left"> {{ getIn }}</h2>
-			<p>
-			  <a href="mailto:callme@sawworkshop.com"><button type="button" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-envelope pull-left"></span> callme@sawworkshop.com</button>
-			</p>
-			<p>
-			  <a href="https://www.facebook.com/SawWorkshop/" target="_blank"><button type="button" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-user pull-left"></span> fb.com/sawworkshop</button>
-			</p>
-			<p class="text-right"><a href="refund.html" target="_blank">refund</a> | <a href="privacypolicy.html" target="_blank">privacy policy</a></p>
-		</div>
-		<div class="col-sm-2 col-md-2 col-lg-2">
-		</div>
-	  </div>
-	</div>
+      <div class="row container-fluid">
+        <h2 class="text-center" style="padding-top:4%;">{{ crew }}</h2>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="team">
+            <img src="img/team/michael.png" class="img-responsive" alt="Michael">
+            <h4><strong>Michael Glavatskyh</strong></h4>
+            <p><strong>{{ team1 }}</strong> {{ team2 }}
+            </p>
+            <p>{{ team3 }}</p>
+            <br/>
+            <div class="address">
+                <a href="https://www.facebook.com/glavat" target="_blank"><p>fb.com/glavat</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="team">
+            <img src="img/team/vladimir.png" class="img-responsive" alt="Vladimir">
+            <h4><strong>Vladimir Pyletsky</strong></h4>
+            <p><strong>{{ technical1 }}</strong> {{ technical2 }}</p>
+            <p>{{ technical3 }}</p>
+            <div class="address">
+                <a href="https://www.facebook.com/vov.saw" target="_blank"><p>fb.com/vov.saw</p></a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="team">
+            <img src="img/team/bohdan.png" class="img-responsive" alt="Bohdan">
+            <h4><strong>Bohdan Yaremchuk</strong></h4>
+            <p><strong>Speaker</strong> who promotes workshops stuff around the Universe.
+            </p>
+            <p>Customer relationships, promo, PR</p>
+            <div class="address">
+                <a href="https://www.facebook.com/byaremchuk" target="_blank"><p>fb.com/byaremchuk</p></a>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-sm-4 col-md-4 col-lg-4">
+          <div class="team">
+            <img src="img/team/dan.png" class="img-responsive" alt="Dan">
+            <h4><strong>Dan Glavatskyh</strong></h4>
+            <p><strong>{{ pr1 }}</strong> {{ pr2 }}</p>
+            <p>{{ pr3 }}</p>
+            <br/>
+            <div class="address">
+                <a href="https://www.facebook.com/dan.glavatskyh" target="_blank"><p>fb.com/dan.glavatskyh</p></a>
+            </div>
+          </div>
+        </div>
 
-	</div>
-	</div>
+      </div>
+
+        <div class="row container-fluid">
+
+            <a class="more" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              <p class="text-center"><span class="glyphicon glyphicon-user"></span> Big picture</p>
+            </a>
+
+            <div class="collapse" id="collapseExample">
+              <div class="well">
+                <div class="row">
+                <div class="col-sm-1 col-mg-1 col-lg-1">
+                </div>
+
+                <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                    <img src="img/team/ann.png" class="img-responsive" alt="Ann">
+                    <h4><strong>Ann Glavatskyh</strong></h4>
+                    <p>An inspiration
+                    <br></br>
+                    </p>
+                </div>
+
+                <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                    <img src="img/team/kostya.png" class="img-responsive" alt="Kostya">
+                    <h4><strong>Kostya Martynenko</strong></h4>
+                    <p>The man whose main goal is to make our product sold. Internet marketing, SEO, sales
+                    <br></br>
+                    </p>
+                </div>
+
+                <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                    <img src="img/team/artem1.png" class="img-responsive" alt="Artem1">
+                    <h4><strong>Artem Maksimenko</strong></h4>
+                    <p>The man who has come to us in the hard time, helped and stays with us
+                    <br></br>
+                    </p>
+                </div>
+
+                <!--div class="col-sm-2 col-md-2 col-lg-2 team2">
+                    <img src="img/team/dan.png" class="img-responsive" alt="Dan">
+                    <h4><strong>Dan Glavatskyh</strong></h4>
+                    <p>All parcels are packed with his pure love
+                    <br></br>
+                    </p>
+                </div-->
+
+                <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                    <img src="img/team/anton.png" class="img-responsive" alt="Anton">
+                    <h4><strong>Anton Kuzmenko</strong></h4>
+                    <p>Production team, animation
+                    <br></br>
+                    </p>
+                </div>
+
+                <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                    <img src="img/team/ihor.png" class="img-responsive" alt="Ihor">
+                    <h4><strong>Ihor Kuzin</strong></h4>
+                    <p>Production team, editing
+                    <br></br>
+                    </p>
+                </div>
+                
+                <div class="col-sm-1 col-md-1 col-lg-1">
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row">
+            <div class="col-sm-2 col-mg-2 col-lg-2">
+            </div>
+
+            <!--div class="col-sm-2 col-md-2 col-lg-2 team2">
+                <img src="img/team/ihor.png" class="img-responsive" alt="Ihor">
+                <h4><strong>Ihor Kuzin</strong></h4>
+                <p>Production team, editing
+                <br></br>
+                </p>
+            </div-->
+
+            <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                <img src="img/team/artem.png" class="img-responsive" alt="Artem">
+                <h4><strong>Artem Sinitsyn</strong></h4>
+                <p>Production team, shooting
+                <br></br>
+                </p>
+            </div>
+
+            <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                <img src="img/team/ros.png" class="img-responsive" alt="Ros">
+                <h4><strong>Ros Vynnytskyi</strong></h4>
+                <p>Webdev team, backend
+                <br></br>
+                </p>
+            </div>
+
+            <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                <img src="img/team/valery.png" class="img-responsive" alt="Valery">
+                <h4><strong>Valeriy Shkolniy</strong></h4>
+                <p>Webdev team, frontend
+                <br></br>
+                </p>
+            </div>
+
+            <div class="col-sm-2 col-md-2 col-lg-2 team2">
+                <img src="img/team/dmytro.png" class="img-responsive" alt="Dmytro">
+                <h4><strong>Dmytro Kramar</strong></h4>
+                <p>Webdev team, frontend, design
+                <br></br>
+                </p>
+            </div>
+
+            <div class="col-sm-2 col-md-2 col-lg-2">
+            </div>
+
+            </div>
+
+        </div>
+        </div>
+
+
+      <div class="row container-fluid">
+        <h2 class="text-center">Distributors</h2>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+        <div class="col-sm-10 col-md-10 col-lg-10">
+          <div class="row distr-opacity" style="margin-bottom: 5%;">
+            <div class="col-sm-5 col-md-5 col-lg-5" style="padding-top: 2%;"><a href="http://www.killerinktattoo.co.uk/" target="_blank"><img src="img/killer_ink.png" alt="Killer Ink" title="Killer Ink, Great Britain" class="img-responsive" style="max-height: 100px;"></a>
+            </div>
+            <div class="col-sm-5 col-md-5 col-lg-5" style="padding-top: 2%;"><a href="http://www.tattoogoods.de/" target="_blank"><img src="img/jtlshop.png" title="Tattoo Goods, Germany" class="img-responsive" alt="Tattoo Goods" style="max-height: 100px;"></a>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2"><a href="http://www.nordictattoosupplies.com/" target="_blank"><img src="img/nordic_tatto.png" title="Nordic Tattoo Supplies, Finland" class="img-responsive" alt="Nordic Tattoo" style="max-height: 160px;"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1">
+        </div>
+      </div>
+
+        
+      <div class="row container-fluid">
+        <div class="col-sm-1 col-md-1 col-lg-1 ">
+        </div>
+        <div class="col-sm-10 col-md-10 col-lg-10 ">
+            <p class="text-center love"> {{ made1 }} <span class="glyphicon glyphicon-heart red"></span> {{ made2 }}</p>
+        </div>
+        <div class="col-sm-1 col-md-1 col-lg-1 ">
+        </div>
+      </div>
+      
+      <div class="row container-fluid fb_photo">
+        <a href="https://www.facebook.com/media/set/?set=a.1017137051685046.1073741833.673174859414602&type=3" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block">{{ show }}</button></a>
+      </div>
+
+      <div class="row container-fluid ftr">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 contacts">
+            <h2 class="text-left"> {{ getIn }}</h2>
+            <p>
+              <a href="mailto:callme@sawworkshop.com"><button type="button" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-envelope pull-left"></span> callme@sawworkshop.com</button>
+            </p>
+            <p>
+              <a href="https://www.facebook.com/SawWorkshop/" target="_blank"><button type="button" class="btn btn-default btn-lg btn-block"><span class="glyphicon glyphicon-user pull-left"></span> fb.com/sawworkshop</button>
+            </p>
+            <p class="text-right"><a href="refund.html" target="_blank">refund</a> | <a href="privacypolicy.html" target="_blank">privacy policy</a></p>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2">
+        </div>
+      </div>
+    </div>
+
+    </div>
+    </div>
 
 </script>
 <script async type="text/javascript">
 
-	function showPosition(position) {
-		$.post( 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD95pD3EF2_j1Q4gocG8YwH6GBiMyGSVYs', function( data ) {
-        // console.log('geolocation response');
-        // console.log(data);
-        getCountry(data.location.lat, data.location.lng);
-	    })
-	    .fail(function(data){
-	        console.log('geolocation fail');
-	        console.log(data);
-	        // $('#demo').after('<p>Something wrong:' + data.responseText + '</p>');
-	        window.render(false, false);
-	    });
+    function showPosition(lang) {
+        if (lang){
+            window.render(false, true, lang);
+        }
+        else{
+            $.post( 'https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyD95pD3EF2_j1Q4gocG8YwH6GBiMyGSVYs', function( data ) {
+                // console.log('geolocation response');
+                // console.log(data);
+                getCountry(data.location.lat, data.location.lng);
+            })
+            .fail(function(data){
+                console.log('geolocation fail');
+                console.log(data);
+                // $('#demo').after('<p>Something wrong:' + data.responseText + '</p>');
+                window.render(false, false);
+            });
+        }
+        
     
-	}
+    }
 
 function getCountry(lat, lng){
     $.get('http://maps.googleapis.com/maps/api/geocode/json', { latlng: lat + ',' + lng }, function(data) {
@@ -563,43 +569,49 @@ function getCountry(lat, lng){
 }
 
 window.render = function render (ev, isExist, language) {
-	if (ev){ev.preventDefault();}
+    // if (ev){ev.preventDefault();}
 
-	var template = $('#indexTpl').html();
-	var html = null;
-	var lang = isExist ? language : 'EN';
-	var currentData = transform();
-	
-	html = Mustache.to_html(template, currentData);
+    var template = $('#indexTpl').html();
+    var html = null;
+    var lang = isExist ? language : 'EN';
+    var currentData = transform();
+    
+    html = Mustache.to_html(template, currentData);
 
-	$('#sampleArea').html(html);
+    $('#sampleArea').html(html);
 
-	$('#'+lang).addClass('choose');
+    $('#'+lang).addClass('choose');
 
-	function transform () {
-		var keys = Object.keys(window.data);
+    function transform () {
+        var keys = Object.keys(window.data);
 
-		var dutch = ['BE', 'NL', 'LU'];
+        var dutch = ['BE', 'NL', 'LU'];
 
-		if (dutch.indexOf(lang) != -1){
-			lang = "Dutch";
-		}
+        if (dutch.indexOf(lang) != -1){
+            lang = "Dutch";
+        }
 
-		var result = {};
-		for (var i = 0; i < keys.length; i++) {
-			var key = keys[i];
-			result[key] = window.data[key][lang];
-		}
+        var result = {};
+        for (var i = 0; i < keys.length; i++) {
+            var key = keys[i];
+            result[key] = window.data[key][lang];
+        }
 
-		return result;
-	}
+        return result;
+    }
 }
 
 </script>
 <script type="text/javascript">
-	$(document).ready(function () {
-		showPosition();
-	});
+    $(document).ready(function () {
+        var url_query = location.search.split('=');
+        var language_param = url_query[1];
+        if (language_param){
+            language_param = language_param.substring(0, language_param.length-1);
+        }
+        
+        showPosition(language_param);
+    });
 </script>
 </body>
 
