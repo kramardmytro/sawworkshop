@@ -607,7 +607,7 @@ window.render = function render (ev, isExist, language) {
         var url_query = location.search.split('=');
         var language_param = url_query[1];
         if (language_param){
-            language_param = language_param.substring(0, language_param.length-1);
+            language_param = language_param.split('/')[0];
         }
         
         showPosition(language_param);
