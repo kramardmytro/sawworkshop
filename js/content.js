@@ -1,9 +1,23 @@
 window.data = {
   language: {
+	"EN":"Europe",
+    "DE":"Deutsche",
+    "ES":"España",
+    "Dutch":"Nederlands"  
+  },
+/*  
+  language: {
 	"EN":"Language",
     "DE":"Sprache",
     "ES":"Idioma",
     "Dutch":"Taal"  
+  },
+*/  
+  img: {
+	"EN":"img/flags/eu.png",
+    "DE":"img/flags/de.png",
+    "ES":"img/flags/es.png",
+    "Dutch":"img/flags/benelux.png"  
   },
   light: {
     "EN":"Light panel for sketches drawing",
