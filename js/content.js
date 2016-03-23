@@ -211,20 +211,20 @@ window.data = {
   },
     pr1:{
     "EN":"Social",
-    "DE":"Social",
+    "DE":"Soziale",
     "ES":"Social",
     "Dutch":"Social"
   },
   pr2:{
     "EN":"networker who communicates via Facebook and Instagram.",
-    "DE":"networker who communicates via Facebook and Instagram.",
-    "ES":"networker who communicates via Facebook and Instagram.",
+    "DE":"netzwerke welche mit facebook und Instagram kommunizieren.",
+    "ES":"networker que se comunica atraves de Facebook e Instagram.",
     "Dutch":"media contact persoon. Communicatie via Facebook en Instagram."
   },
   pr3:{
     "EN":"Customer relationships, promo, PR.",
-    "DE":"Customer relationships, promo, PR.",
-    "ES":"Customer relationships, promo, PR.",
+    "DE":"Kundenbeziehungen, promo, PR.",
+    "ES":"Relaciones con los clientes , promo , de relaciones públicas.",
     "Dutch":"Klantencontact, promoties en PR."
   },
   speaker:{
@@ -256,5 +256,11 @@ window.data = {
     "DE":"Kontaktiere uns",
     "ES":"Ponte en contacto con nosotros",
     "Dutch":"Neem contact met ons op"
+  },
+  distributors:{
+	"EN":"Distributors",
+    "DE":"Verkäufer",
+    "ES":"Distribuidores",
+    "Dutch":"Distributeurs" 
   }
 };
