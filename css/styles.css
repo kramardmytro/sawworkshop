@@ -122,6 +122,40 @@
 	font-size: 250%;
 }
 
+.buy .btn-primary {
+	font-size: 300%;
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+    border-radius: 0px;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+}
+
+.buy .btn-primary:hover {
+    background-color: #E84B3C;
+    border-color: #E84B3C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+}
+
+.buy .btn-primary :active {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+}
+
+.buy .btn-primary:focus {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+}
+
 .text-center{
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -226,6 +260,9 @@
 a:focus, a:hover {
 	color: #1ABC9C;
 	text-decoration: none;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 a {
@@ -420,21 +457,33 @@ a {
     background-color: #1ABC9C;
     border-color: #1ABC9C;
     border-radius: 0px;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .fb_photo .btn-primary:hover {
     background-color: #E84B3C;
     border-color: #E84B3C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .fb_photo .btn-primary :active {
     background-color: #1ABC9C;
     border-color: #1ABC9C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .fb_photo .btn-primary:focus {
     background-color: #1ABC9C;
     border-color: #1ABC9C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .distr-opacity img{
@@ -456,6 +505,9 @@ a {
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     color:#fff;
 	background-color: #1EA58A;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 /*----------------------------------*/ 
 
