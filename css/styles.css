@@ -13,45 +13,69 @@
 
 .navbar-default .navbar-brand {
     color: #fff;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
     color: #fff;
     background-color: transparent;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .navbar-default .navbar-nav li a {
     color: #fff;
 	font-size: 130%;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover {
     color: #333;
     background-color: transparent;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .btn-success {
     color: #FFF;
     background-color: #1ABC9C;
     border-color: #1ABC9C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .btn-success:hover {
     color: #FFF;
     background-color: #E84B3C;
     border-color: #E84B3C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .btn-success:focus {
     color: #FFF;
     background-color: #1ABC9C;
     border-color: #1ABC9C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .btn-success:active:focus, .btn-success:active:hover, .open > .dropdown-toggle.btn-success.focus, .open > .dropdown-toggle.btn-success:focus, .open > .dropdown-toggle.btn-success:hover {
     color: #FFF;
     background-color: #E84B3C;
     border-color: #E84B3C;
+	transition-property: all;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
 }
 
 .container-fluid {
