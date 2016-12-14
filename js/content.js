@@ -1,6 +1,6 @@
 window.data = {
   language: {
-	"EN":"Europe",
+	"EN":"English",
     "Deutsche":"Deutsche",
     "ES":"España",
     "Dutch":"Nederlands"  
@@ -206,7 +206,7 @@ window.data = {
     "Dutch":"Werkt aan: strategie, visie en groei."
   },
   technical1:{
-    "EN":"Technical engineer",
+    "EN":"Technical engineer,",
     "Deutsche":"Techniker",
     "ES":"Ingeniero técnico",
     "Dutch":"De technische man"
@@ -230,7 +230,7 @@ window.data = {
     "Dutch":"Social"
   },
   pr2:{
-    "EN":"networker who communicates via Facebook and Instagram.",
+    "EN":"networker, who communicates via Facebook and Instagram.",
     "Deutsche":"netzwerke welche mit facebook und Instagram kommunizieren.",
     "ES":"networker que se comunica atraves de Facebook e Instagram.",
     "Dutch":"media contact persoon. Communicatie via Facebook en Instagram."

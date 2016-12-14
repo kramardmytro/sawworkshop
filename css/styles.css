@@ -1,10 +1,14 @@
+.green {
+	color: #56D85F;
+}
+
 .all-window-height {
     height: 100vh;
 }
 
 .navbar-default {
-    background-color: #1ABC9C ;
-    border-color: #1ABC9C ;
+    background-color: #0D1B1E ;
+    border-color: #0D1B1E ;
 }
 
 .navbar-brand {
@@ -35,7 +39,7 @@
 }
 
 .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover {
-    color: #333;
+    color: #56D85F;
     background-color: transparent;
 	transition-property: all;
 	transition-duration: 0.25s;
@@ -44,8 +48,8 @@
 
 .btn-success {
     color: #FFF;
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #56D85F;
+    border-color: #56D85F;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
@@ -53,8 +57,8 @@
 
 .btn-success:hover {
     color: #FFF;
-    background-color: #E84B3C;
-    border-color: #E84B3C;
+    background-color: #F7E22A;
+    border-color: #F7E22A;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
@@ -62,8 +66,8 @@
 
 .btn-success:focus {
     color: #FFF;
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #F7E22A;
+    border-color: #F7E22A;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
@@ -71,8 +75,8 @@
 
 .btn-success:active:focus, .btn-success:active:hover, .open > .dropdown-toggle.btn-success.focus, .open > .dropdown-toggle.btn-success:focus, .open > .dropdown-toggle.btn-success:hover {
     color: #FFF;
-    background-color: #E84B3C;
-    border-color: #E84B3C;
+    background-color: #F7E22A;
+    border-color: #F7E22A;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
@@ -92,7 +96,7 @@
 }
 
 #carousel-example-generic{
-	height: 74%;
+	height: 85%;
 }
 
 #carousel-example-generic-two{
@@ -129,11 +133,11 @@
 	padding-left: 2%;
 	padding-right: 2%;
 	font-size: 170%;
-	color: #333;
+	color: #56D85F;
 }
 
 .buy {
-	height: 16%;
+	height: 15%;
 }
 
 .buy  form{
@@ -148,8 +152,8 @@
 
 .buy .btn-primary {
 	font-size: 300%;
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #0D1B1E;
+    border-color: #0D1B1E;
     border-radius: 0px;
 	transition-property: all;
 	transition-duration: 0.25s;
@@ -157,24 +161,24 @@
 }
 
 .buy .btn-primary:hover {
-    background-color: #E84B3C;
-    border-color: #E84B3C;
+    background-color: #56D85F;
+    border-color: #56D85F;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
 }
 
 .buy .btn-primary :active {
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #0D1B1E;
+    border-color: #0D1B1E;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
 }
 
 .buy .btn-primary:focus {
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #0D1B1E;
+    border-color: #0D1B1E;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
@@ -198,7 +202,7 @@
 }
 
 .line h4 strong{
-	color: #1ABC9C;
+	color: #0D1B1E;
 }
 
 .line p{
@@ -206,7 +210,7 @@
 }
 
 .line p strong{
-	color: #333;
+	color: #56D85F;
 }
 
 .team{
@@ -219,11 +223,11 @@
 }
 
 .team h4 strong{
-	color: #1ABC9C;
+	color: #56D85F;
 }
 
 .team2 h4 strong{
-	color: #1ABC9C;
+	color: #56D85F;
 }
 
 .team img{
@@ -242,7 +246,7 @@
 }
 
 .love{
-	font-size: 450%;
+	font-size: 300%;
 }
 
 .red{
@@ -282,7 +286,7 @@
 }
 
 a:focus, a:hover {
-	color: #1ABC9C;
+	color: #56D85F;
 	text-decoration: none;
 	transition-property: all;
 	transition-duration: 0.25s;
@@ -290,7 +294,7 @@ a:focus, a:hover {
 }
 
 a {
-	color: #1ABC9C;
+	color: #56D85F;
 	text-decoration: none;
 }
 
@@ -478,8 +482,8 @@ a {
 
 .fb_photo .btn-primary {
 	font-size: 300%;
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #56D85F;
+    border-color: #56D85F;
     border-radius: 0px;
 	transition-property: all;
 	transition-duration: 0.25s;
@@ -487,24 +491,24 @@ a {
 }
 
 .fb_photo .btn-primary:hover {
-    background-color: #E84B3C;
-    border-color: #E84B3C;
+    background-color: #F7E22A;
+    border-color: #F7E22A;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
 }
 
 .fb_photo .btn-primary :active {
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #F7E22A;
+    border-color: #F7E22A;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
 }
 
 .fb_photo .btn-primary:focus {
-    background-color: #1ABC9C;
-    border-color: #1ABC9C;
+    background-color: #F7E22A;
+    border-color: #F7E22A;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
@@ -519,7 +523,7 @@ a {
 }
 
 .navbar-right .dropdown{
-	background-color: #1EA58A;
+	background-color: #0D1B1E;
 }
 
 .navbar-right .dropdown li a{
@@ -528,11 +532,12 @@ a {
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     color:#fff;
-	background-color: #1EA58A;
+	background-color: #0D1B1E;
 	transition-property: all;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
 }
+
 /*----------------------------------*/ 
 
 @media all and (max-width: 480px) {
@@ -556,7 +561,7 @@ a {
 }
 
 #carousel-example-generic{
-	height: 64%;
+	height: 85%;
 }
 
 .buy .btn-lg{
@@ -627,7 +632,7 @@ a {
 }
 
 #carousel-example-generic{
-	height: 64%;
+	height: 85%;
 }
 
 .buy .btn-lg{
@@ -698,7 +703,7 @@ a {
 }
 
 #carousel-example-generic{
-	height: 64%;
+	height: 85%;
 }
 
 .buy .btn-lg{
@@ -780,22 +785,22 @@ a {
    
 @media all and (max-height: 640px) {
 
-	.middle img{
-		width: 45%;
-		height: auto;
-	}
+.middle img{
+	width: 45%;
+	height: auto;
+}
 
-	.middle p{
-		font-size: 250%;
-	}
+.middle p{
+	font-size: 250%;
+}
 
-	.thanks{
-		height:65%;
-	}
+.thanks{
+	height:65%;
+}
 
-	.ftr_2{
-		height: 35%;
-	}
+.ftr_2{
+	height: 35%;
+}
 
 }
 
